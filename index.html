@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Search Delaware primary election campaign contributions and compare candidate fundraising.">
+  <title>Delaware Campaign Finance Explorer | Spotlight Delaware</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&amp;family=Montserrat:wght@700&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="https://spotlightdelaware.org/" aria-label="Spotlight Delaware home">
+      <img src="assets/spotlight-delaware-logo.png" alt="Spotlight Delaware">
+    </a>
+    <a class="header-label" href="https://spotlightdelaware.org/election-center-2026/">2026 Election Center</a>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="eyebrow">Follow the money</div>
+      <h1>Delaware campaign finance explorer</h1>
+      <p>Search reported contributions in Delaware’s 2026 primary election to explore who is giving and compare fundraising within each race.</p>
+      <div class="search-shell">
+        <svg aria-hidden="true" viewBox="0 0 24 24"><path d="m21 21-4.35-4.35m2.35-5.65a8 8 0 1 1-16 0 8 8 0 0 1 16 0Z"/></svg>
+        <label class="sr-only" for="site-search">Search donors or candidates</label>
+        <input id="site-search" type="search" placeholder="Search a donor, candidate or race…" autocomplete="off">
+        <button id="clear-search" type="button" aria-label="Clear search">×</button>
+      </div>
+      <div id="search-results" class="search-results" hidden></div>
+    </section>
+
+    <section id="overview" class="content-wrap">
+      <div class="section-heading">
+        <div><div class="eyebrow">At a glance</div><h2>Primary fundraising by race</h2></div>
+        <label class="select-label">Filter race
+          <select id="race-filter"><option value="all">All races</option></select>
+        </label>
+      </div>
+      <div id="summary-stats" class="stats" aria-live="polite"></div>
+      <div id="candidate-grid" class="candidate-grid" aria-live="polite"></div>
+      <div id="outside-overview"></div>
+    </section>
+
+    <section id="candidate-view" class="candidate-view" hidden></section>
+    <section id="advertiser-view" class="candidate-view" hidden></section>
+
+    <section class="methodology">
+      <details>
+        <summary>About this data and methodology</summary>
+        <div>
+          <p>Candidate fundraising combines supplied 2025 annual reports with 2026 30-day and 8-day primary reports for the same committee account. “Total receipts” is the sum of Schedule A receipts across non-overlapping periods: annual reports end Dec. 31, 2025; 30-day reports cover Jan. 1 through Aug. 16, 2026; and 8-day reports cover Aug. 17 through Sept. 7, 2026. “Candidate loans” totals candidate-named Schedule D-1 loans across those same non-overlapping supplied periods; debts attributed only to vendors are excluded, and the figure is not the committee’s current outstanding loan balance. Candidates without every report reflect only the periods supplied to Spotlight Delaware. Ending balance is taken from the latest available report.</p>
+          <p>The in-state comparison uses the mailing state printed for itemized Schedule A contributors across the included periods; contributions without an itemized address are shown separately.</p>
+          <p>Third-party advertiser spending is drawn from Schedule B expenditures in the supplied filings through Sept. 8, 2026. It is never added to a candidate committee’s fundraising. Candidate totals include only expenditures that explicitly name the candidate or allocate an exact amount to that candidate.</p>
+          <p>PAC profiles are published only when the supplied PAC reports show expenditures greater than $0. Direct payments to named candidate committees are labeled as PAC donations on PAC profiles, but are not added to “Additional Outside Spending” because candidate committees may also report those donations in Schedule A. PAC administrative and other unattributed spending remains part of the PAC’s reported expenditure total without being assigned to a candidate.</p>
+          <p>Advertiser profiles aggregate those candidate-attributed expenditures by candidate and preserve the filing’s stated position. Spending labeled as opposition is displayed as benefiting the opposing candidate rather than supporting the candidate targeted by the advertisement.</p>
+          <p>When a filing explicitly opposes a candidate in a two-person primary, the expenditure is shown as a benefit to the sole opponent and labeled “Opposition to …” If a race has more than two candidates—or the filing’s candidate allocations do not reconcile to its expenditure—the money remains unassigned rather than being guessed.</p>
+          <p>Amended reports replace original reports covering the same period, and duplicate downloads are counted once. Contributor locations are limited to the city and state reported in the filings; street addresses and ZIP codes are not published. Names and locations may contain filing-entry errors. A contributor can appear more than once; search results show transactions, not deduplicated people.</p>
+          <p><strong>Disclosure:</strong> ChatGPT was used to create this website in conjunction with Spotlight Delaware.</p>
+        </div>
+      </details>
+    </section>
+  </main>
+
+  <footer>
+    <strong>SPOTLIGHT DELAWARE</strong>
+    <span>Independent, nonpartisan local news.</span>
+    <a href="https://spotlightdelaware.org/">spotlightdelaware.org</a>
+  </footer>
+  <script src="app.js" defer></script>
+</body>
+</html>
