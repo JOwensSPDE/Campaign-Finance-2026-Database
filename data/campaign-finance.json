@@ -15985,15 +15985,15 @@
       "account": "01006563",
       "raceId": "NCC4",
       "race": "New Castle County Council District 4",
-      "reportDate": "08/17/2026",
+      "reportDate": "09/09/2026",
       "periodStart": "01/12/2026",
-      "periodEnd": "08/16/2026",
-      "totalReceipts": 7569.0,
+      "periodEnd": "09/07/2026",
+      "totalReceipts": 9844.0,
       "totalExpenditures": 6810.77,
-      "endingBalance": 1183.23,
-      "itemizedTotal": 7569.0,
-      "delawareTotal": 7319.0,
-      "outsideTotal": 250.0,
+      "endingBalance": 3458.23,
+      "itemizedTotal": 9844.0,
+      "delawareTotal": 8769.0,
+      "outsideTotal": 1075.0,
       "unitemizedOrOther": 0.0,
       "donors": [
         {
@@ -16184,11 +16184,143 @@
           "address": "WILMINGTON, Delaware",
           "aggregate": 600.0,
           "amount": 600.0
+        },
+        {
+          "date": "09/03/2026",
+          "name": "ANNMARIE GASKIN",
+          "address": "BROOKHAVEN, Pennsylvania",
+          "aggregate": 600.0,
+          "amount": 600.0
+        },
+        {
+          "date": "09/03/2026",
+          "name": "BARBARA WATSON",
+          "address": "NEW CASTLE, Delaware",
+          "aggregate": 25.0,
+          "amount": 25.0
+        },
+        {
+          "date": "08/31/2026",
+          "name": "CHERIS CONGO",
+          "address": "WILMINGTON, Delaware",
+          "aggregate": 500.0,
+          "amount": 500.0
+        },
+        {
+          "date": "08/27/2026",
+          "name": "CONSTANCE CREAMER",
+          "address": "WOODSTOWN, New Jersey",
+          "aggregate": 50.0,
+          "amount": 50.0
+        },
+        {
+          "date": "08/27/2026",
+          "name": "ELAINE KINDELL",
+          "address": "BEAR, Delaware",
+          "aggregate": 25.0,
+          "amount": 25.0
+        },
+        {
+          "date": "09/03/2026",
+          "name": "GINA GOINS",
+          "address": "NEW CASTLE, Delaware",
+          "aggregate": 25.0,
+          "amount": 25.0
+        },
+        {
+          "date": "09/03/2026",
+          "name": "JOYCE BELL",
+          "address": "PHILADELPHIA, Pennsylvania",
+          "aggregate": 100.0,
+          "amount": 100.0
+        },
+        {
+          "date": "09/07/2026",
+          "name": "MARSHAY MOORE",
+          "address": "HOUSTON, Texas",
+          "aggregate": 50.0,
+          "amount": 50.0
+        },
+        {
+          "date": "09/03/2026",
+          "name": "PATRICIA TAYLOR",
+          "address": "PHILADELPHIA, Pennsylvania",
+          "aggregate": 25.0,
+          "amount": 25.0
+        },
+        {
+          "date": "08/27/2026",
+          "name": "PENROSE HOLLINS",
+          "address": "WILMINGTON, Delaware",
+          "aggregate": 600.0,
+          "amount": 600.0
+        },
+        {
+          "date": "09/05/2026",
+          "name": "SHAWN SORRELL",
+          "address": "WILMINGTON, Delaware",
+          "aggregate": 50.0,
+          "amount": 50.0
+        },
+        {
+          "date": "09/03/2026",
+          "name": "SHEENA MARSHALL",
+          "address": "NEW CASTLE, Delaware",
+          "aggregate": 50.0,
+          "amount": 50.0
+        },
+        {
+          "date": "09/03/2026",
+          "name": "STACEY ROBINSON",
+          "address": "WILMINGTON, Delaware",
+          "aggregate": 25.0,
+          "amount": 25.0
+        },
+        {
+          "date": "08/26/2026",
+          "name": "TRACEY MURPHY",
+          "address": "WILMINGTON, Delaware",
+          "aggregate": 100.0,
+          "amount": 100.0
+        },
+        {
+          "date": "08/27/2026",
+          "name": "TRACEY MURPHY",
+          "address": "WILMINGTON, Delaware",
+          "aggregate": 150.0,
+          "amount": 50.0
         }
       ],
       "excludedRows": 0,
       "sourceFile": "NCC4 Creamer.pdf",
-      "candidateLoans": 0
+      "candidateLoans": 0,
+      "current2026Receipts": 9844.0,
+      "filingPeriods": [
+        {
+          "periodStart": "01/12/2026",
+          "periodEnd": "08/16/2026",
+          "reportDate": "08/17/2026",
+          "sourceFile": "NCC4 Creamer.pdf",
+          "totalReceipts": 7569.0,
+          "candidateLoans": 0,
+          "totalExpenditures": 6810.77
+        },
+        {
+          "periodStart": "08/17/2026",
+          "periodEnd": "09/07/2026",
+          "reportDate": "09/09/2026",
+          "sourceFile": "NCC4 Creamer.pdf",
+          "totalReceipts": 2275.0,
+          "candidateLoans": 0,
+          "totalExpenditures": 0.0
+        }
+      ],
+      "sourceFiles": [
+        "NCC4 Creamer.pdf",
+        "NCC4 Creamer.pdf"
+      ],
+      "reportedItemizedTotal": 9844.0,
+      "itemizedReconciliationGap": 0.0
     },
     {
       "id": "ncc4-hoover",
@@ -65835,15 +65967,15 @@
       "account": "01006478",
       "raceId": "TRS",
       "race": "State Treasurer",
-      "reportDate": "08/18/2026",
+      "reportDate": "09/09/2026",
       "periodStart": "12/11/2025",
-      "periodEnd": "08/16/2026",
-      "totalReceipts": 182467.07,
-      "totalExpenditures": 71345.93,
-      "endingBalance": 158068.14,
-      "itemizedTotal": 181767.07,
-      "delawareTotal": 30791.07,
-      "outsideTotal": 150976.0,
+      "periodEnd": "09/07/2026",
+      "totalReceipts": 186731.95,
+      "totalExpenditures": 212804.08,
+      "endingBalance": 20874.87,
+      "itemizedTotal": 186031.95,
+      "delawareTotal": 32551.95,
+      "outsideTotal": 153480.0,
       "unitemizedOrOther": 700.0,
       "donors": [
         {
@@ -69107,12 +69239,208 @@
           "address": "Grand Rapids, Michigan",
           "aggregate": 100.0,
           "amount": 100.0
+        },
+        {
+          "date": "08/17/2026",
+          "name": "Alex Semendinger",
+          "address": "Somerville, Massachusetts",
+          "aggregate": 1200.0,
+          "amount": 1200.0
+        },
+        {
+          "date": "08/19/2026",
+          "name": "Alexander Sprague",
+          "address": "Wilmington, Delaware",
+          "aggregate": 50.0,
+          "amount": 50.0
+        },
+        {
+          "date": "08/18/2026",
+          "name": "Becky Barber",
+          "address": "Short Hills, New Jersey",
+          "aggregate": 1200.0,
+          "amount": 1200.0
+        },
+        {
+          "date": "08/25/2026",
+          "name": "Bhavesh Patel",
+          "address": "Newark, Delaware",
+          "aggregate": 156.46,
+          "amount": 156.46
+        },
+        {
+          "date": "09/04/2026",
+          "name": "Bhavesh Patel",
+          "address": "Newark, Delaware",
+          "aggregate": 311.88,
+          "amount": 155.42
+        },
+        {
+          "date": "08/30/2026",
+          "name": "Colin Mortensen-Agnew",
+          "address": "Media, Pennsylvania",
+          "aggregate": 95.0,
+          "amount": 20.0
+        },
+        {
+          "date": "08/18/2026",
+          "name": "Debra Travers",
+          "address": "Wilmington, Delaware",
+          "aggregate": 100.0,
+          "amount": 100.0
+        },
+        {
+          "date": "08/18/2026",
+          "name": "Delaware Bankers Association DELBANK",
+          "address": "Dover, Delaware",
+          "aggregate": 0.0,
+          "amount": 400.0
+        },
+        {
+          "date": "08/31/2026",
+          "name": "Diane Dunmon",
+          "address": "Newark, Delaware",
+          "aggregate": 20.0,
+          "amount": 20.0
+        },
+        {
+          "date": "08/17/2026",
+          "name": "Elisa Vassas",
+          "address": "Dover, Delaware",
+          "aggregate": 26.0,
+          "amount": 26.0
+        },
+        {
+          "date": "09/01/2026",
+          "name": "Hali McKinley Lester",
+          "address": "Newark, Delaware",
+          "aggregate": 5.0,
+          "amount": 5.0
+        },
+        {
+          "date": "09/05/2026",
+          "name": "Jacqueline Kilcullen",
+          "address": "Elmhurst, Illinois",
+          "aggregate": 76.0,
+          "amount": 50.0
+        },
+        {
+          "date": "08/22/2026",
+          "name": "Janis Gaddis",
+          "address": "Dover, Delaware",
+          "aggregate": 12.0,
+          "amount": 6.0
+        },
+        {
+          "date": "09/05/2026",
+          "name": "Jerry Lucas",
+          "address": "Newark, Delaware",
+          "aggregate": 200.0,
+          "amount": 200.0
+        },
+        {
+          "date": "08/31/2026",
+          "name": "John Apostal",
+          "address": "Newark, Delaware",
+          "aggregate": 5.0,
+          "amount": 5.0
+        },
+        {
+          "date": "08/18/2026",
+          "name": "John Bare",
+          "address": "Hockessin, Delaware",
+          "aggregate": 200.0,
+          "amount": 100.0
+        },
+        {
+          "date": "09/05/2026",
+          "name": "John Oppenheimer",
+          "address": "Wilmington, Delaware",
+          "aggregate": 51.0,
+          "amount": 26.0
+        },
+        {
+          "date": "08/23/2026",
+          "name": "Josh Higham",
+          "address": "Gaithersburg, Maryland",
+          "aggregate": 16.0,
+          "amount": 8.0
+        },
+        {
+          "date": "08/18/2026",
+          "name": "Kim Williams",
+          "address": "Wilmington, Delaware",
+          "aggregate": 600.0,
+          "amount": 300.0
+        },
+        {
+          "date": "08/18/2026",
+          "name": "Leslie Richeson",
+          "address": "Wilmington, Delaware",
+          "aggregate": 55.0,
+          "amount": 5.0
+        },
+        {
+          "date": "08/18/2026",
+          "name": "Leslie Richeson",
+          "address": "Wilmington, Delaware",
+          "aggregate": 100.0,
+          "amount": 45.0
+        },
+        {
+          "date": "09/05/2026",
+          "name": "Mark Deshon",
+          "address": "Newark, Delaware",
+          "aggregate": 31.0,
+          "amount": 5.0
+        },
+        {
+          "date": "09/06/2026",
+          "name": "Mary Anne Bonner",
+          "address": "Wilmington, Delaware",
+          "aggregate": 5.0,
+          "amount": 5.0
+        },
+        {
+          "date": "08/17/2026",
+          "name": "Minwei Lin",
+          "address": "Newark, Delaware",
+          "aggregate": 26.0,
+          "amount": 26.0
+        },
+        {
+          "date": "08/17/2026",
+          "name": "Natalie Whitaker",
+          "address": "Dover, Delaware",
+          "aggregate": 20.0,
+          "amount": 20.0
+        },
+        {
+          "date": "08/27/2026",
+          "name": "Pamela Baumbach",
+          "address": "Newark, Delaware",
+          "aggregate": 100.0,
+          "amount": 100.0
+        },
+        {
+          "date": "09/01/2026",
+          "name": "Rodolfo Gomes",
+          "address": "Newark, Delaware",
+          "aggregate": 5.0,
+          "amount": 5.0
+        },
+        {
+          "date": "08/30/2026",
+          "name": "Zachary Awe",
+          "address": "Vancouver, Washington",
+          "aggregate": 52.0,
+          "amount": 26.0
         }
       ],
       "excludedRows": 0,
-      "sourceFile": "TRS Smith.pdf",
+      "sourceFile": "TRS Smith(1).pdf",
       "annual2025Receipts": 109530.65,
-      "current2026Receipts": 72936.42,
+      "current2026Receipts": 77201.3,
       "filingPeriods": [
         {
           "periodStart": "12/11/2025",
@@ -69131,13 +69459,23 @@
           "totalReceipts": 72936.42,
           "totalExpenditures": 67874.19,
           "candidateLoans": 46947.0
+        },
+        {
+          "periodStart": "08/17/2026",
+          "periodEnd": "09/07/2026",
+          "reportDate": "09/09/2026",
+          "sourceFile": "TRS Smith(1).pdf",
+          "totalReceipts": 4264.88,
+          "candidateLoans": 0,
+          "totalExpenditures": 141458.15
         }
       ],
       "sourceFiles": [
         "TRS Smith.pdf",
-        "TRS Smith.pdf"
+        "TRS Smith.pdf",
+        "TRS Smith(1).pdf"
       ],
-      "reportedItemizedTotal": 182367.07,
+      "reportedItemizedTotal": 186631.95,
       "itemizedReconciliationGap": 600.0,
       "candidateLoans": 46947.0
     },
