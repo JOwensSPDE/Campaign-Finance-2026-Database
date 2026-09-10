@@ -257,8 +257,9 @@ def extract(pdf: Path) -> dict:
     name_overrides = {
         "AG Rickman": "Patricia Dawn Rickman",
         "NCC4 Hoover": "Jason Hoover",
-        "NCC5 Kosigi": "Syam Kosigi Shroff",
+        "NCC5 Kosigi": "Syam Kosigi",
         "NCCD - Kozikowski": "Michael Kozikowski",
+        "RD1 Darby": "Shané Darby",
         "RD12 Bahnsen": "Robert Bahnsen",
         "RD12 Griffith": "Krista Griffith",
         "RD16 Salaam": "Pamela Salaam",
@@ -269,6 +270,7 @@ def extract(pdf: Path) -> dict:
         "RD23 Seador": "Dan Seador",
         "RD3 Graham": "LaDonna Graham",
         "RD3 McCoy": "Yolanda McCoy",
+        "RD8 Moore": "Sherae'a Moore",
         "RD27 Muntz": "Eric Muntz",
         "RD28 Carson": "Bill Carson",
         "RD32 Evelyn Smith": "Kerri Evelyn Harris",

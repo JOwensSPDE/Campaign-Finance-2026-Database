@@ -171,6 +171,7 @@ function renderCandidate(c) {
   const rivals = state.data.filter(x => x.raceId === c.raceId).sort((a,b) => b.totalReceipts - a.totalReceipts);
   const max = Math.max(...rivals.map(x => x.totalReceipts), 1);
   const outsideEntries = outsideForCandidate(c.id).sort((a,b) => new Date(b.date) - new Date(a.date));
+  const unallocatedSupport = state.outside.groups.filter(group => (group.unallocatedCandidateSupport || []).includes(c.id));
   const candidateOutside = outsideEntries.reduce((sum, item) => sum + item.amount, 0);
   const outsideMax = Math.max(...rivals.map(x => outsideTotal(x.id)), 1);
   const known = c.delawareTotal + c.outsideTotal;
@@ -210,6 +211,7 @@ function renderCandidate(c) {
       </article>
     </div>
     ${outsideEntries.length ? `<section class="outside-section"><div><h3>Outside spending tied to ${esc(c.candidate)}</h3><p class="chart-deck">This is not money received or controlled by the candidate’s committee.</p></div><div class="table-wrap"><table><thead><tr><th>Advertiser</th><th>Activity</th><th>How attributed</th><th>Date</th><th>Amount</th></tr></thead><tbody>${outsideEntries.map(item => `<tr><td><strong>${esc(item.organization)}</strong></td><td>${esc(item.activity)}${item.note?.includes('does not reconcile') ? '<small class="row-note">Filing allocation discrepancy</small>' : ''}</td><td>${outsidePosition(item)}</td><td>${esc(item.date)}</td><td>${exactMoney(item.amount)}</td></tr>`).join('')}</tbody></table></div></section>` : ''}
+    ${unallocatedSupport.length ? `<section class="outside-section"><div><h3>Additional reported support with no candidate total</h3><p class="chart-deck">These advertisers identify ${esc(c.candidate)} as supported but do not report an amount attributable to this candidate. Nothing from these filings is added to the candidate’s outside-spending total.</p></div><div class="advertiser-candidate-grid">${unallocatedSupport.map(group => `<a class="advertiser-candidate-card" href="#advertiser/${encodeURIComponent(group.account)}"><div><div class="race-tag">${esc(group.entityType || 'Third-party advertiser')}</div><h4>${esc(group.organization)}</h4><div class="position-list"><span class="position support">Support</span></div></div><strong>Amount unavailable</strong></a>`).join('')}</div></section>` : ''}
     <section class="donor-section"><div class="donor-tools"><div><h3>Reported contributions</h3><p class="chart-deck" id="donor-count"></p></div><label><span class="sr-only">Filter this candidate's contributors</span><input id="donor-filter" type="search" placeholder="Filter these contributions…" value="${esc(state.pendingDonor || '')}"></label></div><div id="donor-table"></div></section>`;
   state.pendingDonor = '';
   document.querySelector('#back-overview').addEventListener('click', () => { location.hash = ''; });
@@ -236,6 +238,11 @@ function renderAdvertiser(group) {
     record.entries.push(item);
     byCandidate.set(key, record);
   });
+  (group.unallocatedCandidateSupport || []).forEach(candidateId => {
+    if (byCandidate.has(candidateId)) return;
+    const candidate = state.data.find(c => c.id === candidateId);
+    byCandidate.set(candidateId, { candidate, candidateName: '', amount: 0, entries: [], unallocated: true });
+  });
   const candidateTotals = [...byCandidate.values()]
     .sort((a, b) => b.amount - a.amount || profileCandidateName(a).localeCompare(profileCandidateName(b)));
   const isPac = group.entityType === 'PAC';
@@ -248,7 +255,7 @@ function renderAdvertiser(group) {
       <div class="metric"><span>Candidates associated</span><strong>${candidateTotals.length.toLocaleString()}</strong></div>
       <div class="metric"><span>Reports included</span><strong>${group.reportCount.toLocaleString()}</strong></div>
     </div>
-    <section class="outside-section advertiser-candidates"><div><h3>${isPac ? 'Candidates receiving direct PAC donations' : 'Candidates tied to this advertiser’s spending'}</h3><p class="chart-deck">${isPac ? 'These are PAC expenditures paid to named candidate committees. They are not added to Additional Outside Spending totals because candidate committees may also report them as direct donations.' : 'These amounts are not contributions to candidate committees. Opposition spending is credited to the candidate who benefits.'}</p></div>
+    <section class="outside-section advertiser-candidates"><div><h3>${isPac ? 'Candidates receiving direct PAC donations' : 'Candidates tied to this advertiser’s spending'}</h3><p class="chart-deck">${group.unallocatedSupportNote ? esc(group.unallocatedSupportNote) + ' No portion is added to an individual candidate’s outside-spending total.' : isPac ? 'These are PAC expenditures paid to named candidate committees. They are not added to Additional Outside Spending totals because candidate committees may also report them as direct donations.' : 'These amounts are not contributions to candidate committees. Opposition spending is credited to the candidate who benefits.'}</p></div>
       <div class="advertiser-candidate-grid">${candidateTotals.map(profileCandidateCard).join('') || `<div class="empty">${isPac ? 'This PAC reported spending, but the supplied filing does not identify a direct donation to a candidate committee.' : 'The supplied filings do not provide a defensible allocation to an individual candidate.'}</div>`}</div>
     </section>
     ${entries.length ? `<section class="outside-section"><div><h3>${isPac ? 'Identified direct candidate donations' : 'Candidate-attributed expenditures'}</h3><p class="chart-deck">Individual transactions from the supplied filings.</p></div><div class="table-wrap"><table><thead><tr><th>${isPac ? 'Candidate or committee' : 'Candidate benefited'}</th><th>Activity</th><th>Payee</th><th>How attributed</th><th>Date</th><th>Amount</th></tr></thead><tbody>${entries.map(profileExpenditureRow).join('')}</tbody></table></div></section>` : ''}`;
@@ -265,7 +272,9 @@ function profileCandidateName(record) {
 }
 
 function profileCandidateCard(record) {
-  const content = `<div><div class="race-tag">${esc(record.candidate?.race || 'Candidate named in PAC filing')}</div><h4>${esc(profileCandidateName(record))}</h4>${advertiserPositions(record.entries)}</div><strong>${exactMoney(record.amount)}</strong>`;
+  const positions = record.unallocated ? '<div class="position-list"><span class="position support">Support</span></div>' : advertiserPositions(record.entries);
+  const amount = record.unallocated ? 'Amount unavailable' : exactMoney(record.amount);
+  const content = `<div><div class="race-tag">${esc(record.candidate?.race || 'Candidate named in PAC filing')}</div><h4>${esc(profileCandidateName(record))}</h4>${positions}</div><strong>${amount}</strong>`;
   return record.candidate
     ? `<a class="advertiser-candidate-card" href="#candidate/${encodeURIComponent(record.candidate.id)}">${content}</a>`
     : `<div class="advertiser-candidate-card">${content}</div>`;

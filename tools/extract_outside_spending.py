@@ -35,6 +35,7 @@ CANDIDATE_PATTERNS = {
     "rd16-cooke": r"(?:Frank|Franklin)(?:\s+D\.?)?\s+Cooke(?:\s+Jr\.?)?",
     "rd19-williams": r"Kim\s+Williams",
     "rd20-berry": r"Alonna\s+Berry",
+    "rd20-schaeffer": r"Ruby(?:\s+Keeler)?\s+Schaeffer",
     "rd23-redlawsk": r"(?:David\s+)?Redlawsk",
     "rd23-seador": r"Dan\s+Seador",
     "rd27-morrison": r"(?:Eric\s+)?Morrison",
@@ -44,7 +45,7 @@ CANDIDATE_PATTERNS = {
     "rd32-paul": r"Lachelle(?:\s+D\.?)?\s+Paul",
     "ncc4-linton": r"Curtis(?:\s+Dauntell)?\s+Linton",
     "sd1-bohm": r"Adriana(?:\s+Leela)?\s+Bohm",
-    "sd1-cruce": r"Dan\s+Cruce",
+    "sd1-cruce": r"(?:Dan|San)\s+Cruce",
     "sd5-seigfried": r"(?:Ray|Raymond)\s+Seigfried",
     "sd7-mantzavinos": r"Spiros\s+Mantzavinos",
     "sd9-walsh": r"(?:Jack|John)\s+Walsh",
@@ -89,6 +90,10 @@ SPLIT_ALLOCATIONS = {
         ("sd7-mantzavinos", 437600), ("sd9-walsh", 905600),
         ("sd12-poore", 524800), ("sd14-hoffner", 989600),
     ],
+    ("04005615", "09/08/2026", 2228500): [
+        ("sd1-cruce", 747700), ("sd5-seigfried", 510300),
+        ("sd9-walsh", 445700), ("sd12-poore", 524800),
+    ],
     ("04006723", "08/24/2026", 439500): [
         ("rd3-ortega", 219750), ("rd3-mccoy", 219750),
     ],
@@ -99,6 +104,16 @@ RACE_OPPONENTS = {
     "rd12-bahnsen": "rd12-griffith",
     "sd12-watson": "sd12-poore",
     "rd28-grier": "rd28-carson",
+    "sd1-bohm": "sd1-cruce",
+}
+
+# These filings identify supported candidates but do not provide a defensible
+# candidate-by-candidate division of the reported expenditure total.
+UNALLOCATED_CANDIDATE_SUPPORT = {
+    "04005597": [
+        "rd1-darby", "rd6-krantz", "rd16-salaam",
+        "rd19-inmbrie-moore", "sd1-bohm", "sd5-frisby",
+    ],
 }
 
 
@@ -319,12 +334,19 @@ def main() -> None:
     groups = []
     for account in sorted({r["account"] for r in selected}):
         organization_reports = [r for r in selected if r["account"] == account]
-        groups.append({
+        group = {
             "account": account, "organization": organization_reports[0]["organization"],
             "reportedExpenditures": round(sum(r["reportedTotal"] for r in organization_reports if r["periodEnd"].endswith("/2026")), 2),
             "candidateAttributed": round(sum(a["amount"] for a in allocations if a["account"] == account), 2),
             "reportCount": len(organization_reports),
-        })
+        }
+        if account in UNALLOCATED_CANDIDATE_SUPPORT:
+            group["unallocatedCandidateSupport"] = UNALLOCATED_CANDIDATE_SUPPORT[account]
+            group["unallocatedSupportNote"] = (
+                "The filings identify these candidates as supported but do not provide "
+                "candidate-level amounts for the $455,000 in reported expenditures."
+            )
+        groups.append(group)
     payload = {
         "generated": datetime.now().date().isoformat(),
         "methodology": "Candidate totals include only explicit candidate allocations. Opposition spending is assigned as a benefit only in two-candidate races.",

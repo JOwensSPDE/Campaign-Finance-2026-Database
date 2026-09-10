@@ -18494,7 +18494,7 @@
     },
     {
       "id": "ncc5-kosigi",
-      "candidate": "Syam Shroff",
+      "candidate": "Syam Kosigi",
       "shortName": "Kosigi",
       "committee": "Committee To Elect Syam Kosigi Shroff",
       "account": "01006675",
@@ -19019,15 +19019,15 @@
       "account": "01006695",
       "raceId": "NCCD",
       "race": "New Castle County Recorder of Deeds",
-      "reportDate": "08/18/2026",
+      "reportDate": "09/09/2026",
       "periodStart": "06/24/2026",
-      "periodEnd": "08/16/2026",
-      "totalReceipts": 38000.0,
-      "totalExpenditures": 6916.67,
-      "endingBalance": 31083.33,
-      "itemizedTotal": 38000.0,
-      "delawareTotal": 38000.0,
-      "outsideTotal": 0.0,
+      "periodEnd": "09/07/2026",
+      "totalReceipts": 41850.0,
+      "totalExpenditures": 9801.53,
+      "endingBalance": 32048.47,
+      "itemizedTotal": 41850.0,
+      "delawareTotal": 41300.0,
+      "outsideTotal": 550.0,
       "unitemizedOrOther": 0.0,
       "donors": [
         {
@@ -19043,11 +19043,157 @@
           "address": "Newark, Delaware",
           "aggregate": 13000.0,
           "amount": 13000.0
+        },
+        {
+          "date": "08/26/2026",
+          "name": "anthony Hill",
+          "address": "Wilmington, Delaware",
+          "aggregate": 100.0,
+          "amount": 100.0
+        },
+        {
+          "date": "08/27/2026",
+          "name": "Apna Bazar",
+          "address": "Newark, Delaware",
+          "aggregate": 500.0,
+          "amount": 500.0
+        },
+        {
+          "date": "09/03/2026",
+          "name": "Cassandra Marshall",
+          "address": "Wilmington, Delaware",
+          "aggregate": 100.0,
+          "amount": 100.0
+        },
+        {
+          "date": "08/26/2026",
+          "name": "Delaware Building & Constructon Trades/ PAC",
+          "address": "Newark, Delaware",
+          "aggregate": 600.0,
+          "amount": 600.0
+        },
+        {
+          "date": "08/31/2026",
+          "name": "Donald Sharp",
+          "address": "Newark, Delaware",
+          "aggregate": 200.0,
+          "amount": 200.0
+        },
+        {
+          "date": "08/25/2026",
+          "name": "Earl Jacques",
+          "address": "Newark, Delaware",
+          "aggregate": 100.0,
+          "amount": 100.0
+        },
+        {
+          "date": "08/26/2026",
+          "name": "IUPAT DC 21 PAC",
+          "address": "Philadelphia, Pennsylvania",
+          "aggregate": 300.0,
+          "amount": 300.0
+        },
+        {
+          "date": "08/26/2026",
+          "name": "Krista Milakovics",
+          "address": "Newark, Delaware",
+          "aggregate": 100.0,
+          "amount": 100.0
+        },
+        {
+          "date": "08/26/2026",
+          "name": "Michelle Tucker",
+          "address": "Wilmington, Delaware",
+          "aggregate": 100.0,
+          "amount": 100.0
+        },
+        {
+          "date": "08/26/2026",
+          "name": "Nicholas IV Ferrara",
+          "address": "Greenville, Delaware",
+          "aggregate": 100.0,
+          "amount": 100.0
+        },
+        {
+          "date": "08/26/2026",
+          "name": "Peter Yingst",
+          "address": "Kennett Square, Pennsylvania",
+          "aggregate": 200.0,
+          "amount": 200.0
+        },
+        {
+          "date": "08/26/2026",
+          "name": "Shawn Tucker",
+          "address": "Wilmington, Delaware",
+          "aggregate": 100.0,
+          "amount": 100.0
+        },
+        {
+          "date": "08/26/2026",
+          "name": "Stephen Lex",
+          "address": "Wilmington, Delaware",
+          "aggregate": 600.0,
+          "amount": 600.0
+        },
+        {
+          "date": "08/26/2026",
+          "name": "Tarabicos Grosso LLP",
+          "address": "Wilmington, Delaware",
+          "aggregate": 300.0,
+          "amount": 300.0
+        },
+        {
+          "date": "09/01/2026",
+          "name": "Terri Mcivor",
+          "address": "Dover, Delaware",
+          "aggregate": 150.0,
+          "amount": 150.0
+        },
+        {
+          "date": "08/26/2026",
+          "name": "Total of Contributions not exceeding $100",
+          "address": "",
+          "aggregate": 50.0,
+          "amount": 50.0
+        },
+        {
+          "date": "08/26/2026",
+          "name": "Ward & Taylor",
+          "address": "Wilmington, Delaware",
+          "aggregate": 250.0,
+          "amount": 250.0
         }
       ],
       "excludedRows": 0,
       "sourceFile": "NCCD Tackett.pdf",
-      "candidateLoans": 0
+      "candidateLoans": 0,
+      "current2026Receipts": 41850.0,
+      "filingPeriods": [
+        {
+          "periodStart": "06/24/2026",
+          "periodEnd": "08/16/2026",
+          "reportDate": "08/18/2026",
+          "sourceFile": "NCCD Tackett.pdf",
+          "totalReceipts": 38000.0,
+          "candidateLoans": 0,
+          "totalExpenditures": 6916.67
+        },
+        {
+          "periodStart": "08/17/2026",
+          "periodEnd": "09/07/2026",
+          "reportDate": "09/09/2026",
+          "sourceFile": "NCCD Tackett.pdf",
+          "totalReceipts": 3850.0,
+          "candidateLoans": 0,
+          "totalExpenditures": 2884.86
+        }
+      ],
+      "sourceFiles": [
+        "NCCD Tackett.pdf",
+        "NCCD Tackett.pdf"
+      ],
+      "reportedItemizedTotal": 41850.0,
+      "itemizedReconciliationGap": 0.0
     },
     {
       "id": "nccd-kozikowski",
@@ -20718,7 +20864,7 @@
     },
     {
       "id": "rd1-darby",
-      "candidate": "Shane Darby",
+      "candidate": "Shan\u00e9 Darby",
       "shortName": "Darby",
       "committee": "Friends of Shane Nicole Darby",
       "account": "01006436",
@@ -21448,15 +21594,15 @@
       "account": "01004153",
       "raceId": "RD12",
       "race": "State House District 12",
-      "reportDate": "08/11/2026",
+      "reportDate": "09/09/2026",
       "periodStart": "01/01/2025",
-      "periodEnd": "08/16/2026",
-      "totalReceipts": 163425.0,
-      "totalExpenditures": 128317.75,
-      "endingBalance": 114958.62,
-      "itemizedTotal": 162930.0,
-      "delawareTotal": 127920.0,
-      "outsideTotal": 35010.0,
+      "periodEnd": "09/07/2026",
+      "totalReceipts": 178300.0,
+      "totalExpenditures": 147044.69,
+      "endingBalance": 111106.68,
+      "itemizedTotal": 177805.0,
+      "delawareTotal": 142170.0,
+      "outsideTotal": 35635.0,
       "unitemizedOrOther": 495.0,
       "donors": [
         {
@@ -25238,12 +25384,278 @@
           "address": "Wilmington, Delaware",
           "aggregate": 150.0,
           "amount": 150.0
+        },
+        {
+          "date": "08/19/2026",
+          "name": "Alisha Bryson",
+          "address": "Wilmington, Delaware",
+          "aggregate": 600.0,
+          "amount": 600.0
+        },
+        {
+          "date": "08/25/2026",
+          "name": "Anna Hamilton",
+          "address": "Wilmington, Delaware",
+          "aggregate": 500.0,
+          "amount": 500.0
+        },
+        {
+          "date": "08/20/2026",
+          "name": "Carol Byrd",
+          "address": "Middletown, Delaware",
+          "aggregate": 200.0,
+          "amount": 200.0
+        },
+        {
+          "date": "08/17/2026",
+          "name": "Carol Spiker",
+          "address": "Wilmington, Delaware",
+          "aggregate": 100.0,
+          "amount": 100.0
+        },
+        {
+          "date": "08/31/2026",
+          "name": "Chemours Co.",
+          "address": "Wilmington, Delaware",
+          "aggregate": 600.0,
+          "amount": 600.0
+        },
+        {
+          "date": "08/20/2026",
+          "name": "Christopher Sanna",
+          "address": "Wilmington, Delaware",
+          "aggregate": 600.0,
+          "amount": 600.0
+        },
+        {
+          "date": "08/26/2026",
+          "name": "Dan Vlossak",
+          "address": "Cambridge, Massachusetts",
+          "aggregate": 25.0,
+          "amount": 25.0
+        },
+        {
+          "date": "08/30/2026",
+          "name": "David Ross",
+          "address": "Wilmington, Delaware",
+          "aggregate": 600.0,
+          "amount": 600.0
+        },
+        {
+          "date": "08/30/2026",
+          "name": "Deborah Ross",
+          "address": "Wilmington, Delaware",
+          "aggregate": 600.0,
+          "amount": 600.0
+        },
+        {
+          "date": "08/31/2026",
+          "name": "Delaware Bankers Association DELBANK",
+          "address": "Dover, Delaware",
+          "aggregate": 600.0,
+          "amount": 600.0
+        },
+        {
+          "date": "08/25/2026",
+          "name": "Delaware Veterinary Medical Association PAC",
+          "address": "Newark, Delaware",
+          "aggregate": 350.0,
+          "amount": 350.0
+        },
+        {
+          "date": "08/17/2026",
+          "name": "Democratic Legislative Campaign Committee",
+          "address": "Wilmington, Delaware",
+          "aggregate": 600.0,
+          "amount": 600.0
+        },
+        {
+          "date": "08/17/2026",
+          "name": "Democrats 2024",
+          "address": "Wilmington, Delaware",
+          "aggregate": 600.0,
+          "amount": 600.0
+        },
+        {
+          "date": "08/31/2026",
+          "name": "Donna Culver",
+          "address": "Hockessin, Delaware",
+          "aggregate": 600.0,
+          "amount": 600.0
+        },
+        {
+          "date": "08/18/2026",
+          "name": "Doug Edwards",
+          "address": "Philadelphia, Pennsylvania",
+          "aggregate": 400.0,
+          "amount": 400.0
+        },
+        {
+          "date": "08/17/2026",
+          "name": "Eckert Seamans Cherin & Mellott, LLC",
+          "address": "Pittsburgh, Delaware",
+          "aggregate": 250.0,
+          "amount": 250.0
+        },
+        {
+          "date": "08/17/2026",
+          "name": "Edmond Ianni",
+          "address": "Wilmington, Delaware",
+          "aggregate": 100.0,
+          "amount": 100.0
+        },
+        {
+          "date": "08/31/2026",
+          "name": "Hammers & Nails Club",
+          "address": "Dover, Delaware",
+          "aggregate": 600.0,
+          "amount": 600.0
+        },
+        {
+          "date": "08/17/2026",
+          "name": "House Democrats",
+          "address": "Wilmington, Delaware",
+          "aggregate": 600.0,
+          "amount": 600.0
+        },
+        {
+          "date": "08/28/2026",
+          "name": "Jennifer Smith-Steiner",
+          "address": "Wilmington, Delaware",
+          "aggregate": 600.0,
+          "amount": 600.0
+        },
+        {
+          "date": "08/19/2026",
+          "name": "John Seiberlich",
+          "address": "Wilmington, Delaware",
+          "aggregate": 500.0,
+          "amount": 500.0
+        },
+        {
+          "date": "08/29/2026",
+          "name": "Joseph Fitzgerald",
+          "address": "Wilmington, Delaware",
+          "aggregate": 450.0,
+          "amount": 300.0
+        },
+        {
+          "date": "08/17/2026",
+          "name": "Julia Sperry",
+          "address": "Hockessin, Delaware",
+          "aggregate": 50.0,
+          "amount": 50.0
+        },
+        {
+          "date": "08/24/2026",
+          "name": "LawPac of Delaware",
+          "address": "Wilmington, Delaware",
+          "aggregate": 600.0,
+          "amount": 600.0
+        },
+        {
+          "date": "08/20/2026",
+          "name": "Lislie Sanna",
+          "address": "Wilmington, Delaware",
+          "aggregate": 600.0,
+          "amount": 600.0
+        },
+        {
+          "date": "08/28/2026",
+          "name": "Marilyn McGowan",
+          "address": "Wilmington, Delaware",
+          "aggregate": 150.0,
+          "amount": 50.0
+        },
+        {
+          "date": "08/25/2026",
+          "name": "Mary Ann Matuszewski",
+          "address": "Wilmington, Delaware",
+          "aggregate": 300.0,
+          "amount": 100.0
+        },
+        {
+          "date": "08/19/2026",
+          "name": "Melissa Lennon",
+          "address": "Philadelphia, Pennsylvania",
+          "aggregate": 100.0,
+          "amount": 100.0
+        },
+        {
+          "date": "08/26/2026",
+          "name": "Michael Pittenger",
+          "address": "Wilmington, Delaware",
+          "aggregate": 600.0,
+          "amount": 600.0
+        },
+        {
+          "date": "08/28/2026",
+          "name": "Michael Steiner",
+          "address": "Wilmington, Delaware",
+          "aggregate": 600.0,
+          "amount": 600.0
+        },
+        {
+          "date": "08/17/2026",
+          "name": "PAC302",
+          "address": "Wilmington, Delaware",
+          "aggregate": 250.0,
+          "amount": 250.0
+        },
+        {
+          "date": "08/24/2026",
+          "name": "Peter Flint",
+          "address": "Wilmington, Delaware",
+          "aggregate": 200.0,
+          "amount": 200.0
+        },
+        {
+          "date": "08/31/2026",
+          "name": "Private Property Rights PAC",
+          "address": "Dover, Delaware",
+          "aggregate": 600.0,
+          "amount": 600.0
+        },
+        {
+          "date": "08/18/2026",
+          "name": "Robert Seiberlich",
+          "address": "Kennett Square, Pennsylvania",
+          "aggregate": 100.0,
+          "amount": 100.0
+        },
+        {
+          "date": "08/24/2026",
+          "name": "Tania Culley",
+          "address": "Rehoboth Beach, Delaware",
+          "aggregate": 250.0,
+          "amount": 250.0
+        },
+        {
+          "date": "08/21/2026",
+          "name": "Tim Wilson",
+          "address": "Wilmington, Delaware",
+          "aggregate": 100.0,
+          "amount": 100.0
+        },
+        {
+          "date": "08/17/2026",
+          "name": "Vertex Pharmaceuticals Incorporated Political",
+          "address": "Boston, Delaware",
+          "aggregate": 600.0,
+          "amount": 600.0
+        },
+        {
+          "date": "08/21/2026",
+          "name": "Wilfred Sherk",
+          "address": "Wilmington, Delaware",
+          "aggregate": 300.0,
+          "amount": 150.0
         }
       ],
       "excludedRows": 0,
       "sourceFile": "RD12 Griffith.pdf",
       "annual2025Receipts": 49300.0,
-      "current2026Receipts": 114125.0,
+      "current2026Receipts": 129000.0,
       "filingPeriods": [
         {
           "periodStart": "01/01/2025",
@@ -25262,13 +25674,23 @@
           "totalReceipts": 114125.0,
           "totalExpenditures": 122046.94,
           "candidateLoans": 0
+        },
+        {
+          "periodStart": "08/17/2026",
+          "periodEnd": "09/07/2026",
+          "reportDate": "09/09/2026",
+          "sourceFile": "RD12 Griffith.pdf",
+          "totalReceipts": 14875.0,
+          "candidateLoans": 0,
+          "totalExpenditures": 18726.94
         }
       ],
       "sourceFiles": [
         "RD12 Griffith.pdf",
+        "RD12 Griffith.pdf",
         "RD12 Griffith.pdf"
       ],
-      "reportedItemizedTotal": 163230.0,
+      "reportedItemizedTotal": 178105.0,
       "itemizedReconciliationGap": 300.0,
       "candidateLoans": 0
     },
@@ -30775,16 +31197,16 @@
       "account": "01006426",
       "raceId": "RD20",
       "race": "State House District 20",
-      "reportDate": "08/27/2026",
+      "reportDate": "09/08/2026",
       "periodStart": "07/29/2025",
-      "periodEnd": "08/16/2026",
-      "totalReceipts": 52496.01,
-      "totalExpenditures": 49066.39,
-      "endingBalance": 28505.8,
-      "itemizedTotal": 47986.01,
-      "delawareTotal": 32720.0,
-      "outsideTotal": 15266.01,
-      "unitemizedOrOther": 4510.0,
+      "periodEnd": "09/07/2026",
+      "totalReceipts": 59241.01,
+      "totalExpenditures": 72709.71,
+      "endingBalance": 11607.48,
+      "itemizedTotal": 54046.01,
+      "delawareTotal": 37930.0,
+      "outsideTotal": 16116.01,
+      "unitemizedOrOther": 5195.0,
       "donors": [
         {
           "date": "12/19/2025",
@@ -32101,12 +32523,215 @@
           "address": "Wilmington, Delaware",
           "aggregate": 600.0,
           "amount": 600.0
+        },
+        {
+          "date": "08/18/2026",
+          "name": "Ann Miller",
+          "address": "Milton, Delaware",
+          "aggregate": 200.0,
+          "amount": 200.0
+        },
+        {
+          "date": "09/05/2026",
+          "name": "Ashley Dawson",
+          "address": "Lewes, Delaware",
+          "aggregate": 100.0,
+          "amount": 100.0
+        },
+        {
+          "date": "08/31/2026",
+          "name": "Candace Vessella",
+          "address": "Lewes, Delaware",
+          "aggregate": 400.0,
+          "amount": 200.0
+        },
+        {
+          "date": "09/04/2026",
+          "name": "Cecily Cutbill",
+          "address": "Silver Spring, Maryland",
+          "aggregate": 500.0,
+          "amount": 250.0
+        },
+        {
+          "date": "08/19/2026",
+          "name": "Charlotte McNaughton",
+          "address": "Milton, Delaware",
+          "aggregate": 100.0,
+          "amount": 100.0
+        },
+        {
+          "date": "08/19/2026",
+          "name": "Christine Gill",
+          "address": "Milton, Delaware",
+          "aggregate": 100.0,
+          "amount": 100.0
+        },
+        {
+          "date": "09/03/2026",
+          "name": "Colleen Reft",
+          "address": "Millvile, Delaware",
+          "aggregate": 150.0,
+          "amount": 100.0
+        },
+        {
+          "date": "08/31/2026",
+          "name": "Connie Jones",
+          "address": "Rehoboth Beach, Delaware",
+          "aggregate": 360.0,
+          "amount": 360.0
+        },
+        {
+          "date": "08/17/2026",
+          "name": "Cornerstone Government Affairs, Inc.",
+          "address": "Washington, District Of Columbia",
+          "aggregate": 600.0,
+          "amount": 600.0
+        },
+        {
+          "date": "08/18/2026",
+          "name": "Debra Dobransky",
+          "address": "Lewes, Delaware",
+          "aggregate": 50.0,
+          "amount": 50.0
+        },
+        {
+          "date": "09/01/2026",
+          "name": "Edward Freel",
+          "address": "Wilmington, Delaware",
+          "aggregate": 100.0,
+          "amount": 100.0
+        },
+        {
+          "date": "09/01/2026",
+          "name": "Elaine Simmerman",
+          "address": "Lewes, Delaware",
+          "aggregate": 100.0,
+          "amount": 100.0
+        },
+        {
+          "date": "08/22/2026",
+          "name": "Gerald Meklaus",
+          "address": "Lewes, Delaware",
+          "aggregate": 25.0,
+          "amount": 25.0
+        },
+        {
+          "date": "09/01/2026",
+          "name": "Hammers & Nails Club",
+          "address": "Dover, Delaware",
+          "aggregate": 600.0,
+          "amount": 600.0
+        },
+        {
+          "date": "08/31/2026",
+          "name": "Harry Gold",
+          "address": "Bethany Beach, Delaware",
+          "aggregate": 250.0,
+          "amount": 100.0
+        },
+        {
+          "date": "09/01/2026",
+          "name": "LawPac of Delaware",
+          "address": "Wilmington, Delaware",
+          "aggregate": 600.0,
+          "amount": 600.0
+        },
+        {
+          "date": "08/20/2026",
+          "name": "Leslie Ledogar",
+          "address": "Lewes, Delaware",
+          "aggregate": 100.0,
+          "amount": 100.0
+        },
+        {
+          "date": "09/04/2026",
+          "name": "Mara Gorman",
+          "address": "Newark, Delaware",
+          "aggregate": 150.0,
+          "amount": 150.0
+        },
+        {
+          "date": "09/02/2026",
+          "name": "Margaret Conway",
+          "address": "Lewes, Delaware",
+          "aggregate": 600.0,
+          "amount": 600.0
+        },
+        {
+          "date": "08/19/2026",
+          "name": "MaryJane Ostinato",
+          "address": "Milton, Delaware",
+          "aggregate": 50.0,
+          "amount": 50.0
+        },
+        {
+          "date": "08/21/2026",
+          "name": "Rachel Allen",
+          "address": "Newark, Delaware",
+          "aggregate": 25.0,
+          "amount": 25.0
+        },
+        {
+          "date": "09/04/2026",
+          "name": "Rebecca Lowe",
+          "address": "Lewes, Delaware",
+          "aggregate": 600.0,
+          "amount": 400.0
+        },
+        {
+          "date": "08/21/2026",
+          "name": "Rebecca Bowers",
+          "address": "Felton, Delaware",
+          "aggregate": 25.0,
+          "amount": 25.0
+        },
+        {
+          "date": "09/01/2026",
+          "name": "Stephen Julian",
+          "address": "Wilmington, Delaware",
+          "aggregate": 600.0,
+          "amount": 600.0
+        },
+        {
+          "date": "08/27/2026",
+          "name": "Stephen Highsmith",
+          "address": "Milton, Delaware",
+          "aggregate": 100.0,
+          "amount": 100.0
+        },
+        {
+          "date": "09/01/2026",
+          "name": "Sue Ellen Strong",
+          "address": "Lewes, Delaware",
+          "aggregate": 550.0,
+          "amount": 250.0
+        },
+        {
+          "date": "08/17/2026",
+          "name": "Susan Graves",
+          "address": "Rehoboth Beach, Delaware",
+          "aggregate": 25.0,
+          "amount": 25.0
+        },
+        {
+          "date": "08/19/2026",
+          "name": "Susan Poteet",
+          "address": "Milton, Delaware",
+          "aggregate": 50.0,
+          "amount": 50.0
+        },
+        {
+          "date": "08/19/2026",
+          "name": "Thomas Connelly",
+          "address": "Rehoboth Beach, Delaware",
+          "aggregate": 100.0,
+          "amount": 100.0
         }
       ],
       "excludedRows": 0,
       "sourceFile": "RD20 Berry.pdf",
       "annual2025Receipts": 20341.01,
-      "current2026Receipts": 32155.0,
+      "current2026Receipts": 38900.0,
       "filingPeriods": [
         {
           "periodStart": "07/29/2025",
@@ -32125,13 +32750,23 @@
           "totalReceipts": 32155.0,
           "totalExpenditures": 21435.6,
           "candidateLoans": 0
+        },
+        {
+          "periodStart": "08/17/2026",
+          "periodEnd": "09/07/2026",
+          "reportDate": "09/08/2026",
+          "sourceFile": "RD20 Berry.pdf",
+          "totalReceipts": 6745.0,
+          "candidateLoans": 0,
+          "totalExpenditures": 23643.32
         }
       ],
       "sourceFiles": [
         "RD20 Berry.pdf",
+        "RD20 Berry.pdf",
         "RD20 Berry.pdf"
       ],
-      "reportedItemizedTotal": 48461.01,
+      "reportedItemizedTotal": 54521.01,
       "itemizedReconciliationGap": 475.0,
       "candidateLoans": 0
     },
@@ -36716,16 +37351,16 @@
       "account": "01005829",
       "raceId": "RD3",
       "race": "State House District 3",
-      "reportDate": "08/18/2026",
+      "reportDate": "09/09/2026",
       "periodStart": "01/01/2026",
-      "periodEnd": "08/16/2026",
-      "totalReceipts": 8045.0,
-      "totalExpenditures": 8007.32,
-      "endingBalance": 11551.54,
-      "itemizedTotal": 7925.0,
-      "delawareTotal": 6280.0,
+      "periodEnd": "09/07/2026",
+      "totalReceipts": 8415.84,
+      "totalExpenditures": 10815.7,
+      "endingBalance": 9114.0,
+      "itemizedTotal": 8225.0,
+      "delawareTotal": 6580.0,
       "outsideTotal": 1645.0,
-      "unitemizedOrOther": 120.0,
+      "unitemizedOrOther": 190.84,
       "donors": [
         {
           "date": "06/25/2026",
@@ -37090,11 +37725,52 @@
           "address": "Newark, Delaware",
           "aggregate": 600.0,
           "amount": 600.0
+        },
+        {
+          "date": "08/25/2026",
+          "name": "Kathryn Soja",
+          "address": "Wilmington, Delaware",
+          "aggregate": 200.0,
+          "amount": 100.0
+        },
+        {
+          "date": "08/29/2026",
+          "name": "Sylvia Carson",
+          "address": "Wilmington, Delaware",
+          "aggregate": 200.0,
+          "amount": 200.0
         }
       ],
       "excludedRows": 0,
-      "sourceFile": "RD3 Fletcher Dominguez.pdf",
-      "candidateLoans": 0
+      "sourceFile": "RD3 Fletcher.pdf",
+      "candidateLoans": 0,
+      "current2026Receipts": 8415.84,
+      "filingPeriods": [
+        {
+          "periodStart": "01/01/2026",
+          "periodEnd": "08/16/2026",
+          "reportDate": "08/18/2026",
+          "sourceFile": "RD3 Fletcher Dominguez.pdf",
+          "totalReceipts": 8045.0,
+          "candidateLoans": 0,
+          "totalExpenditures": 8007.32
+        },
+        {
+          "periodStart": "08/17/2026",
+          "periodEnd": "09/07/2026",
+          "reportDate": "09/09/2026",
+          "sourceFile": "RD3 Fletcher.pdf",
+          "totalReceipts": 370.84,
+          "candidateLoans": 0,
+          "totalExpenditures": 2808.38
+        }
+      ],
+      "sourceFiles": [
+        "RD3 Fletcher Dominguez.pdf",
+        "RD3 Fletcher.pdf"
+      ],
+      "reportedItemizedTotal": 8225.0,
+      "itemizedReconciliationGap": 0.0
     },
     {
       "id": "rd3-ortega",
@@ -45970,7 +46646,7 @@
     },
     {
       "id": "rd8-moore",
-      "candidate": "Sheraea Moore",
+      "candidate": "Sherae'a Moore",
       "shortName": "Moore",
       "committee": "Neighbors for Moore",
       "account": "01004978",
@@ -48772,16 +49448,16 @@
       "account": "01006435",
       "raceId": "SD1",
       "race": "State Senate District 1",
-      "reportDate": "08/19/2026",
+      "reportDate": "09/09/2026",
       "periodStart": "09/09/2025",
-      "periodEnd": "08/16/2026",
-      "totalReceipts": 59599.61,
-      "totalExpenditures": 26260.24,
-      "endingBalance": 37339.37,
-      "itemizedTotal": 51792.01,
-      "delawareTotal": 34620.0,
-      "outsideTotal": 17172.01,
-      "unitemizedOrOther": 7807.6,
+      "periodEnd": "09/07/2026",
+      "totalReceipts": 64739.0,
+      "totalExpenditures": 45408.16,
+      "endingBalance": 23330.84,
+      "itemizedTotal": 56020.01,
+      "delawareTotal": 37648.0,
+      "outsideTotal": 18372.01,
+      "unitemizedOrOther": 8718.99,
       "donors": [
         {
           "date": "10/20/2025",
@@ -50406,12 +51082,103 @@
           "address": "Wilmington, Delaware",
           "aggregate": 100.0,
           "amount": 100.0
+        },
+        {
+          "date": "08/29/2026",
+          "name": "Allan Greenleaf",
+          "address": "Rochester, New York",
+          "aggregate": 200.0,
+          "amount": 200.0
+        },
+        {
+          "date": "08/26/2026",
+          "name": "Cherise Alexander",
+          "address": "Wilmington, Delaware",
+          "aggregate": 500.0,
+          "amount": 500.0
+        },
+        {
+          "date": "08/26/2026",
+          "name": "Dionne Williford",
+          "address": "Hockessin, Delaware",
+          "aggregate": 300.0,
+          "amount": 300.0
+        },
+        {
+          "date": "08/30/2026",
+          "name": "Kaden Markiewicz",
+          "address": "New Castle, Delaware",
+          "aggregate": 600.0,
+          "amount": 600.0
+        },
+        {
+          "date": "08/30/2026",
+          "name": "Manjeet Kaur",
+          "address": "Wilmington, Delaware",
+          "aggregate": 600.0,
+          "amount": 600.0
+        },
+        {
+          "date": "08/19/2026",
+          "name": "Paul Waga",
+          "address": "Swedesboro, New Jersey",
+          "aggregate": 250.0,
+          "amount": 250.0
+        },
+        {
+          "date": "09/04/2026",
+          "name": "Sandra Joy",
+          "address": "Folcroft, Pennsylvania",
+          "aggregate": 250.0,
+          "amount": 50.0
+        },
+        {
+          "date": "08/23/2026",
+          "name": "Steven Kramer",
+          "address": "Wilmington, Delaware",
+          "aggregate": 101.0,
+          "amount": 101.0
+        },
+        {
+          "date": "08/26/2026",
+          "name": "Total of Contributions not exceeding $100",
+          "address": "",
+          "aggregate": 100.0,
+          "amount": 100.0
+        },
+        {
+          "date": "09/03/2026",
+          "name": "Udayvir Singh",
+          "address": "Wilmington, Delaware",
+          "aggregate": 600.0,
+          "amount": 600.0
+        },
+        {
+          "date": "08/20/2026",
+          "name": "United Food and Commercial Workers",
+          "address": "Baltimore, Maryland",
+          "aggregate": 600.0,
+          "amount": 600.0
+        },
+        {
+          "date": "08/20/2026",
+          "name": "Wali Rushdan",
+          "address": "Wilmington, Delaware",
+          "aggregate": 600.0,
+          "amount": 300.0
+        },
+        {
+          "date": "08/18/2026",
+          "name": "William Martin",
+          "address": "Wilmington, Delaware",
+          "aggregate": 127.0,
+          "amount": 27.0
         }
       ],
       "excludedRows": 0,
       "sourceFile": "SD1 Bohm.pdf",
       "annual2025Receipts": 19874.0,
-      "current2026Receipts": 39725.61,
+      "current2026Receipts": 44865.0,
       "filingPeriods": [
         {
           "periodStart": "09/09/2025",
@@ -50430,13 +51197,23 @@
           "totalReceipts": 39725.61,
           "totalExpenditures": 24093.83,
           "candidateLoans": 4000.0
+        },
+        {
+          "periodStart": "08/17/2026",
+          "periodEnd": "09/07/2026",
+          "reportDate": "09/09/2026",
+          "sourceFile": "SD1 Bohm.pdf",
+          "totalReceipts": 5139.39,
+          "candidateLoans": 0,
+          "totalExpenditures": 19147.92
         }
       ],
       "sourceFiles": [
         "SD1 Bohm.pdf",
+        "SD1 Bohm.pdf",
         "SD1 Bohm.pdf"
       ],
-      "reportedItemizedTotal": 51792.01,
+      "reportedItemizedTotal": 56020.01,
       "itemizedReconciliationGap": 0.0,
       "candidateLoans": 4000.0
     },
@@ -50448,15 +51225,15 @@
       "account": "01006227",
       "raceId": "SD1",
       "race": "State Senate District 1",
-      "reportDate": "08/18/2026",
+      "reportDate": "09/09/2026",
       "periodStart": "02/08/2025",
-      "periodEnd": "08/16/2026",
-      "totalReceipts": 136596.89,
-      "totalExpenditures": 101234.8,
-      "endingBalance": 94757.14,
-      "itemizedTotal": 132803.82,
-      "delawareTotal": 88251.0,
-      "outsideTotal": 44552.82,
+      "periodEnd": "09/07/2026",
+      "totalReceipts": 156542.27,
+      "totalExpenditures": 139087.59,
+      "endingBalance": 76849.73,
+      "itemizedTotal": 152749.2,
+      "delawareTotal": 103476.0,
+      "outsideTotal": 49273.2,
       "unitemizedOrOther": 3793.07,
       "donors": [
         {
@@ -52978,12 +53755,327 @@
           "address": "Wilmington, Delaware",
           "aggregate": 1200.0,
           "amount": 600.0
+        },
+        {
+          "date": "09/01/2026",
+          "name": "Agent PAC Of Delaware",
+          "address": "Mechanicsburg, Pennsylvania",
+          "aggregate": 600.0,
+          "amount": 600.0
+        },
+        {
+          "date": "08/24/2026",
+          "name": "Alex Bailkin",
+          "address": "Manhattan, New York",
+          "aggregate": 600.0,
+          "amount": 600.0
+        },
+        {
+          "date": "08/22/2026",
+          "name": "Alexus Chrisley",
+          "address": "Atlanta, Georgia",
+          "aggregate": 50.0,
+          "amount": 50.0
+        },
+        {
+          "date": "08/25/2026",
+          "name": "Alicia Smith",
+          "address": "Wilmington, Delaware",
+          "aggregate": 500.0,
+          "amount": 500.0
+        },
+        {
+          "date": "08/18/2026",
+          "name": "Chris Ramsey",
+          "address": "New Castle, Delaware",
+          "aggregate": 600.0,
+          "amount": 600.0
+        },
+        {
+          "date": "08/22/2026",
+          "name": "Cornerstone Government Affairs",
+          "address": "DC, District Of Columbia",
+          "aggregate": 600.0,
+          "amount": 600.0
+        },
+        {
+          "date": "08/22/2026",
+          "name": "Delaware REALTORS PAC",
+          "address": "Dover, Delaware",
+          "aggregate": 600.0,
+          "amount": 600.0
+        },
+        {
+          "date": "08/24/2026",
+          "name": "Don Mell",
+          "address": "Wilmington, Delaware",
+          "aggregate": 600.0,
+          "amount": 600.0
+        },
+        {
+          "date": "08/18/2026",
+          "name": "Donna Geist",
+          "address": "Dover, Delaware",
+          "aggregate": 250.0,
+          "amount": 250.0
+        },
+        {
+          "date": "08/22/2026",
+          "name": "Eckert",
+          "address": "Pittsburg, Pennsylvania",
+          "aggregate": 250.0,
+          "amount": 250.0
+        },
+        {
+          "date": "08/24/2026",
+          "name": "Ed Godden",
+          "address": "Wilmington, Delaware",
+          "aggregate": 250.0,
+          "amount": 250.0
+        },
+        {
+          "date": "08/22/2026",
+          "name": "First State Manufactured Housing PAC",
+          "address": "Dover, Delaware",
+          "aggregate": 600.0,
+          "amount": 600.0
+        },
+        {
+          "date": "08/28/2026",
+          "name": "Frank Bartuski",
+          "address": "Newark, Delaware",
+          "aggregate": 600.0,
+          "amount": 600.0
+        },
+        {
+          "date": "08/31/2026",
+          "name": "Ginger Weiss",
+          "address": "Wilmington, Delaware",
+          "aggregate": 200.0,
+          "amount": 100.0
+        },
+        {
+          "date": "08/19/2026",
+          "name": "Heather Jacobs",
+          "address": "Felton, Delaware",
+          "aggregate": 600.0,
+          "amount": 600.0
+        },
+        {
+          "date": "08/19/2026",
+          "name": "Herminio cisneros",
+          "address": "Dover, Delaware",
+          "aggregate": 600.0,
+          "amount": 600.0
+        },
+        {
+          "date": "08/24/2026",
+          "name": "Jeanne Mell",
+          "address": "Wilmington, Delaware",
+          "aggregate": 600.0,
+          "amount": 600.0
+        },
+        {
+          "date": "08/31/2026",
+          "name": "Jennifer Steiner",
+          "address": "Wilmington, Delaware",
+          "aggregate": 600.0,
+          "amount": 600.0
+        },
+        {
+          "date": "08/22/2026",
+          "name": "John Matlusky",
+          "address": "Wilmington, Delaware",
+          "aggregate": 150.0,
+          "amount": 150.0
+        },
+        {
+          "date": "08/21/2026",
+          "name": "Joseph Shub",
+          "address": "Hockessin, Delaware",
+          "aggregate": 600.0,
+          "amount": 600.0
+        },
+        {
+          "date": "09/01/2026",
+          "name": "KAJRI, LLC",
+          "address": "Newark, Delaware",
+          "aggregate": 600.0,
+          "amount": 600.0
+        },
+        {
+          "date": "08/28/2026",
+          "name": "Karen Bartuski",
+          "address": "Newark, Delaware",
+          "aggregate": 600.0,
+          "amount": 600.0
+        },
+        {
+          "date": "08/18/2026",
+          "name": "Kim Williams",
+          "address": "Wilmington, Delaware",
+          "aggregate": 300.0,
+          "amount": 300.0
+        },
+        {
+          "date": "09/01/2026",
+          "name": "LawPac of Delaware",
+          "address": "Wilmington, Delaware",
+          "aggregate": 1200.0,
+          "amount": 600.0
+        },
+        {
+          "date": "08/27/2026",
+          "name": "Mark Reardon",
+          "address": "Wilmington, Delaware",
+          "aggregate": 250.0,
+          "amount": 250.0
+        },
+        {
+          "date": "08/19/2026",
+          "name": "Melissa Hopkins",
+          "address": "Newark, Delaware",
+          "aggregate": 350.0,
+          "amount": 50.0
+        },
+        {
+          "date": "08/26/2026",
+          "name": "Michael Pittenger",
+          "address": "Wilmington, Delaware",
+          "aggregate": 250.0,
+          "amount": 250.0
+        },
+        {
+          "date": "08/31/2026",
+          "name": "Michael Steiner",
+          "address": "Wilmington, Delaware",
+          "aggregate": 600.0,
+          "amount": 600.0
+        },
+        {
+          "date": "08/21/2026",
+          "name": "Mike Cirillo",
+          "address": "Middletown, Delaware",
+          "aggregate": 600.0,
+          "amount": 600.0
+        },
+        {
+          "date": "08/19/2026",
+          "name": "Morris Betesh",
+          "address": "New York, New York",
+          "aggregate": 600.0,
+          "amount": 600.0
+        },
+        {
+          "date": "08/25/2026",
+          "name": "NCC Chamber of Commerce PAC",
+          "address": "Wilmington, Delaware",
+          "aggregate": 275.0,
+          "amount": 275.0
+        },
+        {
+          "date": "08/24/2026",
+          "name": "Nick Nardo",
+          "address": "Newark, Delaware",
+          "aggregate": 600.0,
+          "amount": 600.0
+        },
+        {
+          "date": "08/18/2026",
+          "name": "Patti Ramsey",
+          "address": "New Castle, Delaware",
+          "aggregate": 600.0,
+          "amount": 600.0
+        },
+        {
+          "date": "08/18/2026",
+          "name": "Paul Smiley",
+          "address": "Lincoln University, Pennsylvania",
+          "aggregate": 100.0,
+          "amount": 50.0
+        },
+        {
+          "date": "09/01/2026",
+          "name": "People For McDowell",
+          "address": "Wilmington, Delaware",
+          "aggregate": 1200.0,
+          "amount": 300.0
+        },
+        {
+          "date": "08/20/2026",
+          "name": "Rebecca Byrd",
+          "address": "Middletown, Delaware",
+          "aggregate": 200.0,
+          "amount": 200.0
+        },
+        {
+          "date": "09/07/2026",
+          "name": "Rita Landgraf",
+          "address": "Wilmington, Delaware",
+          "aggregate": 300.0,
+          "amount": 300.0
+        },
+        {
+          "date": "08/26/2026",
+          "name": "Sara Gelsinger",
+          "address": "West Chester, Pennsylvania",
+          "aggregate": 600.0,
+          "amount": 600.0
+        },
+        {
+          "date": "08/23/2026",
+          "name": "Scott Mackenzie",
+          "address": "Bellefonte, Delaware",
+          "aggregate": 50.0,
+          "amount": 50.0
+        },
+        {
+          "date": "08/21/2026",
+          "name": "Sharron Circillo",
+          "address": "Middletown, Delaware",
+          "aggregate": 600.0,
+          "amount": 600.0
+        },
+        {
+          "date": "08/31/2026",
+          "name": "Total of Contributions not exceeding $100",
+          "address": "",
+          "aggregate": 0.38,
+          "amount": 0.38
+        },
+        {
+          "date": "09/07/2026",
+          "name": "Total of Contributions not exceeding $100",
+          "address": "",
+          "aggregate": 770.0,
+          "amount": 770.0
+        },
+        {
+          "date": "08/24/2026",
+          "name": "Vincent Nardo",
+          "address": "Newark, Delaware",
+          "aggregate": 600.0,
+          "amount": 600.0
+        },
+        {
+          "date": "08/28/2026",
+          "name": "William Burkel",
+          "address": "Feasterville-Trevose, Pennsylvania",
+          "aggregate": 600.0,
+          "amount": 600.0
+        },
+        {
+          "date": "08/24/2026",
+          "name": "Wilmington Strong",
+          "address": "Wilmington, Delaware",
+          "aggregate": 600.0,
+          "amount": 600.0
         }
       ],
       "excludedRows": 0,
       "sourceFile": "SD1 Cruce.pdf",
       "annual2025Receipts": 17610.07,
-      "current2026Receipts": 118986.82,
+      "current2026Receipts": 138932.2,
       "filingPeriods": [
         {
           "periodStart": "02/08/2025",
@@ -53002,13 +54094,23 @@
           "totalReceipts": 118986.82,
           "totalExpenditures": 85793.2,
           "candidateLoans": 0
+        },
+        {
+          "periodStart": "08/17/2026",
+          "periodEnd": "09/07/2026",
+          "reportDate": "09/09/2026",
+          "sourceFile": "SD1 Cruce.pdf",
+          "totalReceipts": 19945.38,
+          "candidateLoans": 0,
+          "totalExpenditures": 37852.79
         }
       ],
       "sourceFiles": [
         "SD1 Cruce.pdf",
+        "SD1 Cruce.pdf",
         "SD1 Cruce.pdf"
       ],
-      "reportedItemizedTotal": 132803.82,
+      "reportedItemizedTotal": 152749.2,
       "itemizedReconciliationGap": 0.0,
       "candidateLoans": 0
     },
@@ -53316,15 +54418,15 @@
       "account": "01002709",
       "raceId": "SD12",
       "race": "State Senate District 12",
-      "reportDate": "08/18/2026",
+      "reportDate": "09/09/2026",
       "periodStart": "01/01/2025",
-      "periodEnd": "08/16/2026",
-      "totalReceipts": 98440.0,
-      "totalExpenditures": 91988.34,
-      "endingBalance": 63930.68,
-      "itemizedTotal": 98235.0,
-      "delawareTotal": 83260.0,
-      "outsideTotal": 14975.0,
+      "periodEnd": "09/07/2026",
+      "totalReceipts": 109640.0,
+      "totalExpenditures": 120263.57,
+      "endingBalance": 46855.45,
+      "itemizedTotal": 109435.0,
+      "delawareTotal": 92660.0,
+      "outsideTotal": 16775.0,
       "unitemizedOrOther": 205.0,
       "donors": [
         {
@@ -55629,12 +56731,194 @@
           "address": "Wilmington, Delaware",
           "aggregate": 600.0,
           "amount": 300.0
+        },
+        {
+          "date": "08/25/2026",
+          "name": "Agent PAC Of Delaware",
+          "address": "Mechanicsburg, Pennsylvania",
+          "aggregate": 600.0,
+          "amount": 600.0
+        },
+        {
+          "date": "08/21/2026",
+          "name": "Brian Mattaway",
+          "address": "New Castle, Delaware",
+          "aggregate": 500.0,
+          "amount": 500.0
+        },
+        {
+          "date": "08/18/2026",
+          "name": "Brian McGlinchey",
+          "address": "Wilmington, Delaware",
+          "aggregate": 600.0,
+          "amount": 600.0
+        },
+        {
+          "date": "08/20/2026",
+          "name": "Correctional Officer's Assn. Of Delaware P.A.C.",
+          "address": "Dover, Delaware",
+          "aggregate": 600.0,
+          "amount": 600.0
+        },
+        {
+          "date": "09/02/2026",
+          "name": "delaware apartment assoociation",
+          "address": "Bear, Delaware",
+          "aggregate": 600.0,
+          "amount": 600.0
+        },
+        {
+          "date": "08/21/2026",
+          "name": "Delaware Bankers Association DELBANK",
+          "address": "Dover, Delaware",
+          "aggregate": 200.0,
+          "amount": 200.0
+        },
+        {
+          "date": "08/25/2026",
+          "name": "Delaware Veterinary Medical Assoc Inc",
+          "address": "Dover, Delaware",
+          "aggregate": 350.0,
+          "amount": 350.0
+        },
+        {
+          "date": "08/20/2026",
+          "name": "First State Manufactured Housing PAC",
+          "address": "Dover, Delaware",
+          "aggregate": 600.0,
+          "amount": 600.0
+        },
+        {
+          "date": "08/19/2026",
+          "name": "Hammers & Nails Club",
+          "address": "Dover, Delaware",
+          "aggregate": 600.0,
+          "amount": 600.0
+        },
+        {
+          "date": "08/18/2026",
+          "name": "Jill Fredel",
+          "address": "New Castle, Delaware",
+          "aggregate": 50.0,
+          "amount": 50.0
+        },
+        {
+          "date": "08/28/2026",
+          "name": "John DiMondi",
+          "address": "New Castle, Delaware",
+          "aggregate": 500.0,
+          "amount": 250.0
+        },
+        {
+          "date": "08/18/2026",
+          "name": "Kemal Erkan",
+          "address": "Wilmington, Delaware",
+          "aggregate": 600.0,
+          "amount": 600.0
+        },
+        {
+          "date": "08/18/2026",
+          "name": "Laurisa Schutt",
+          "address": "Wilmington, Delaware",
+          "aggregate": 300.0,
+          "amount": 300.0
+        },
+        {
+          "date": "08/25/2026",
+          "name": "Lisa Frankel",
+          "address": "Wilmington, Delaware",
+          "aggregate": 200.0,
+          "amount": 200.0
+        },
+        {
+          "date": "08/19/2026",
+          "name": "Martin Willis",
+          "address": "New Castle, Delaware",
+          "aggregate": 300.0,
+          "amount": 300.0
+        },
+        {
+          "date": "08/26/2026",
+          "name": "Melissa Minor Brown",
+          "address": "New Castle, Delaware",
+          "aggregate": 600.0,
+          "amount": 600.0
+        },
+        {
+          "date": "09/01/2026",
+          "name": "Michael Burns",
+          "address": "New Castle, Delaware",
+          "aggregate": 100.0,
+          "amount": 100.0
+        },
+        {
+          "date": "08/21/2026",
+          "name": "NCC Chamber of Commerce PAC",
+          "address": "Wilmington, Delaware",
+          "aggregate": 200.0,
+          "amount": 200.0
+        },
+        {
+          "date": "08/27/2026",
+          "name": "Newark Toyota World",
+          "address": "Newark, Delaware",
+          "aggregate": 600.0,
+          "amount": 600.0
+        },
+        {
+          "date": "08/19/2026",
+          "name": "PMI US Corporate Services Inc",
+          "address": "Washington, District Of Columbia",
+          "aggregate": 600.0,
+          "amount": 600.0
+        },
+        {
+          "date": "08/20/2026",
+          "name": "Private Property Rights PAC",
+          "address": "Dover, Delaware",
+          "aggregate": 600.0,
+          "amount": 600.0
+        },
+        {
+          "date": "08/20/2026",
+          "name": "Rebecca Byrd",
+          "address": "Middletown, Delaware",
+          "aggregate": 400.0,
+          "amount": 200.0
+        },
+        {
+          "date": "08/20/2026",
+          "name": "Robinson Mengot Tabi",
+          "address": "Middletown, Delaware",
+          "aggregate": 600.0,
+          "amount": 600.0
+        },
+        {
+          "date": "08/19/2026",
+          "name": "Sean Finnigan",
+          "address": "Wilmington, Delaware",
+          "aggregate": 300.0,
+          "amount": 150.0
+        },
+        {
+          "date": "08/27/2026",
+          "name": "Shorts Marine",
+          "address": "Millsboro, Delaware",
+          "aggregate": 600.0,
+          "amount": 600.0
+        },
+        {
+          "date": "08/28/2026",
+          "name": "VSP Vision",
+          "address": "Rancho Cordova, California",
+          "aggregate": 600.0,
+          "amount": 600.0
         }
       ],
       "excludedRows": 0,
       "sourceFile": "SD12 Poore.pdf",
       "annual2025Receipts": 28470.0,
-      "current2026Receipts": 69970.0,
+      "current2026Receipts": 81170.0,
       "filingPeriods": [
         {
           "periodStart": "01/01/2025",
@@ -55653,13 +56937,23 @@
           "totalReceipts": 69970.0,
           "totalExpenditures": 76282.08,
           "candidateLoans": 0
+        },
+        {
+          "periodStart": "08/17/2026",
+          "periodEnd": "09/07/2026",
+          "reportDate": "09/09/2026",
+          "sourceFile": "SD12 Poore.pdf",
+          "totalReceipts": 11200.0,
+          "candidateLoans": 0,
+          "totalExpenditures": 28275.23
         }
       ],
       "sourceFiles": [
         "SD12 Poore.pdf",
+        "SD12 Poore.pdf",
         "SD12 Poore.pdf"
       ],
-      "reportedItemizedTotal": 98235.0,
+      "reportedItemizedTotal": 109435.0,
       "itemizedReconciliationGap": 0.0,
       "candidateLoans": 0
     },
@@ -64419,6 +65713,121 @@
       "candidateLoans": 0
     },
     {
+      "id": "trs-miller",
+      "candidate": "Michael Miller Sr.",
+      "shortName": "Miller",
+      "committee": "Michael Miller for State Treasurer",
+      "account": "01006645",
+      "raceId": "TRS",
+      "race": "State Treasurer",
+      "reportDate": "08/25/2026",
+      "periodStart": "05/01/2026",
+      "periodEnd": "08/16/2026",
+      "totalReceipts": 15675.0,
+      "totalExpenditures": 0.0,
+      "endingBalance": 35675.0,
+      "itemizedTotal": 15675.0,
+      "delawareTotal": 4050.0,
+      "outsideTotal": 11625.0,
+      "unitemizedOrOther": 0.0,
+      "donors": [
+        {
+          "date": "07/01/2026",
+          "name": "Anthony Rykard",
+          "address": "Delmar, Delaware",
+          "aggregate": 200.0,
+          "amount": 200.0
+        },
+        {
+          "date": "06/13/2026",
+          "name": "Brenda Johnson",
+          "address": "New Castle, Delaware",
+          "aggregate": 1200.0,
+          "amount": 1200.0
+        },
+        {
+          "date": "06/29/2026",
+          "name": "Chantel Banks",
+          "address": "Bridgeville, Delaware",
+          "aggregate": 600.0,
+          "amount": 600.0
+        },
+        {
+          "date": "06/17/2026",
+          "name": "Clifton Collick",
+          "address": "Millsboro, Delaware",
+          "aggregate": 1200.0,
+          "amount": 1200.0
+        },
+        {
+          "date": "08/03/2026",
+          "name": "John Ridgeway",
+          "address": "Middletown, Delaware",
+          "aggregate": 250.0,
+          "amount": 250.0
+        },
+        {
+          "date": "07/29/2026",
+          "name": "Jose Saez",
+          "address": "Lewes, Delaware",
+          "aggregate": 250.0,
+          "amount": 250.0
+        },
+        {
+          "date": "07/31/2026",
+          "name": "Kenya Mickens",
+          "address": "Dover, Delaware",
+          "aggregate": 150.0,
+          "amount": 150.0
+        },
+        {
+          "date": "07/25/2026",
+          "name": "Marshall Jackson",
+          "address": "Lewes, Delaware",
+          "aggregate": 200.0,
+          "amount": 200.0
+        },
+        {
+          "date": "07/27/2026",
+          "name": "Mona Lisa Tucker",
+          "address": "Schertz, Texas",
+          "aggregate": 500.0,
+          "amount": 500.0
+        },
+        {
+          "date": "05/13/2026",
+          "name": "Rachel Hinton",
+          "address": "Richmond, Virginia",
+          "aggregate": 1200.0,
+          "amount": 1200.0
+        },
+        {
+          "date": "05/18/2026",
+          "name": "Steven Ewing",
+          "address": "Smyrna, Georgia",
+          "aggregate": 500.0,
+          "amount": 500.0
+        },
+        {
+          "date": "08/15/2026",
+          "name": "Total of Contributions not exceeding $100",
+          "address": "",
+          "aggregate": 8225.0,
+          "amount": 8225.0
+        },
+        {
+          "date": "05/12/2026",
+          "name": "Walter Jorden",
+          "address": "Washington, District Of Columbia",
+          "aggregate": 1200.0,
+          "amount": 1200.0
+        }
+      ],
+      "excludedRows": 0,
+      "sourceFile": "TRS Miller.pdf",
+      "candidateLoans": 20000.0
+    },
+    {
       "id": "trs-smith",
       "candidate": "Michael Smith",
       "shortName": "Smith",
@@ -67731,121 +69140,6 @@
       "reportedItemizedTotal": 182367.07,
       "itemizedReconciliationGap": 600.0,
       "candidateLoans": 46947.0
-    },
-    {
-      "id": "trs-miller",
-      "candidate": "Micheal Miller Sr.",
-      "shortName": "Miller",
-      "committee": "Micheal Miller for State Treasurer",
-      "account": "01006645",
-      "raceId": "TRS",
-      "race": "State Treasurer",
-      "reportDate": "08/25/2026",
-      "periodStart": "05/01/2026",
-      "periodEnd": "08/16/2026",
-      "totalReceipts": 15675.0,
-      "totalExpenditures": 0.0,
-      "endingBalance": 35675.0,
-      "itemizedTotal": 15675.0,
-      "delawareTotal": 4050.0,
-      "outsideTotal": 11625.0,
-      "unitemizedOrOther": 0.0,
-      "donors": [
-        {
-          "date": "07/01/2026",
-          "name": "Anthony Rykard",
-          "address": "Delmar, Delaware",
-          "aggregate": 200.0,
-          "amount": 200.0
-        },
-        {
-          "date": "06/13/2026",
-          "name": "Brenda Johnson",
-          "address": "New Castle, Delaware",
-          "aggregate": 1200.0,
-          "amount": 1200.0
-        },
-        {
-          "date": "06/29/2026",
-          "name": "Chantel Banks",
-          "address": "Bridgeville, Delaware",
-          "aggregate": 600.0,
-          "amount": 600.0
-        },
-        {
-          "date": "06/17/2026",
-          "name": "Clifton Collick",
-          "address": "Millsboro, Delaware",
-          "aggregate": 1200.0,
-          "amount": 1200.0
-        },
-        {
-          "date": "08/03/2026",
-          "name": "John Ridgeway",
-          "address": "Middletown, Delaware",
-          "aggregate": 250.0,
-          "amount": 250.0
-        },
-        {
-          "date": "07/29/2026",
-          "name": "Jose Saez",
-          "address": "Lewes, Delaware",
-          "aggregate": 250.0,
-          "amount": 250.0
-        },
-        {
-          "date": "07/31/2026",
-          "name": "Kenya Mickens",
-          "address": "Dover, Delaware",
-          "aggregate": 150.0,
-          "amount": 150.0
-        },
-        {
-          "date": "07/25/2026",
-          "name": "Marshall Jackson",
-          "address": "Lewes, Delaware",
-          "aggregate": 200.0,
-          "amount": 200.0
-        },
-        {
-          "date": "07/27/2026",
-          "name": "Mona Lisa Tucker",
-          "address": "Schertz, Texas",
-          "aggregate": 500.0,
-          "amount": 500.0
-        },
-        {
-          "date": "05/13/2026",
-          "name": "Rachel Hinton",
-          "address": "Richmond, Virginia",
-          "aggregate": 1200.0,
-          "amount": 1200.0
-        },
-        {
-          "date": "05/18/2026",
-          "name": "Steven Ewing",
-          "address": "Smyrna, Georgia",
-          "aggregate": 500.0,
-          "amount": 500.0
-        },
-        {
-          "date": "08/15/2026",
-          "name": "Total of Contributions not exceeding $100",
-          "address": "",
-          "aggregate": 8225.0,
-          "amount": 8225.0
-        },
-        {
-          "date": "05/12/2026",
-          "name": "Walter Jorden",
-          "address": "Washington, District Of Columbia",
-          "aggregate": 1200.0,
-          "amount": 1200.0
-        }
-      ],
-      "excludedRows": 0,
-      "sourceFile": "TRS Miller.pdf",
-      "candidateLoans": 20000.0
     },
     {
       "id": "trs-lauzen",
