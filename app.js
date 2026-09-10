@@ -94,12 +94,14 @@ function renderOverview() {
 
 function candidateCard(c) {
   const outside = outsideTotal(c.id);
+  const undetermined = hasUndeterminedSupport(c.id);
+  const outsideDisplay = outside ? `${money(outside)}${undetermined ? '*' : ''}` : 'Undetermined';
   return `<article class="candidate-card" data-id="${esc(c.id)}" tabindex="0" aria-label="View ${esc(c.candidate)}">
     <div class="race-tag">${esc(c.race)}</div>
     <h3>${esc(c.candidate)}</h3>
     <div class="committee">${esc(c.committee)}</div>
     <div class="money-row"><div><span>Direct Candidate Donations</span><strong>${money(c.totalReceipts)}</strong></div><button class="card-button" tabindex="-1">View →</button></div>
-    ${outside ? `<div class="outside-card-amount"><span>Additional Outside Spending Tied To Candidate</span><strong>${money(outside)}</strong></div>` : ''}
+    ${outside || undetermined ? `<div class="outside-card-amount"><span>Additional Outside Spending Tied To Candidate</span><strong>${outsideDisplay}</strong></div>` : ''}
   </article>`;
 }
 
@@ -109,6 +111,10 @@ function outsideForCandidate(candidateId) {
 
 function outsideTotal(candidateId) {
   return outsideForCandidate(candidateId).reduce((sum, item) => sum + item.amount, 0);
+}
+
+function hasUndeterminedSupport(candidateId) {
+  return state.outside.groups.some(group => (group.unallocatedCandidateSupport || []).includes(candidateId));
 }
 
 function renderOutsideOverview(visibleCandidates) {
@@ -173,6 +179,9 @@ function renderCandidate(c) {
   const outsideEntries = outsideForCandidate(c.id).sort((a,b) => new Date(b.date) - new Date(a.date));
   const unallocatedSupport = state.outside.groups.filter(group => (group.unallocatedCandidateSupport || []).includes(c.id));
   const candidateOutside = outsideEntries.reduce((sum, item) => sum + item.amount, 0);
+  const candidateOutsideDisplay = candidateOutside
+    ? `${exactMoney(candidateOutside)}${unallocatedSupport.length ? '*' : ''}`
+    : unallocatedSupport.length ? 'Undetermined' : exactMoney(0);
   const outsideMax = Math.max(...rivals.map(x => outsideTotal(x.id)), 1);
   const known = c.delawareTotal + c.outsideTotal;
   const circumference = 2 * Math.PI * 70;
@@ -186,7 +195,7 @@ function renderCandidate(c) {
       <div class="metric"><span>Candidate loans</span><strong>${exactMoney(c.candidateLoans)}</strong><small>Schedule D-1 loans from the candidate</small></div>
       <div class="metric"><span>Total expenditures</span><strong>${exactMoney(c.totalExpenditures)}</strong></div>
       <div class="metric"><span>Ending balance</span><strong>${exactMoney(c.endingBalance)}</strong></div>
-      <div class="metric outside-metric"><span>Additional Outside Spending Tied To Candidate</span><strong>${exactMoney(candidateOutside)}</strong></div>
+      <div class="metric outside-metric"><span>Additional Outside Spending Tied To Candidate</span><strong>${candidateOutsideDisplay}</strong>${unallocatedSupport.length ? '<small>* Additional support was reported without a candidate-level dollar amount.</small>' : ''}</div>
     </div>
     <div class="charts">
       <article class="chart-card"><h3>Where itemized money came from</h3><p class="chart-deck">Based on the mailing addresses reported for Schedule A contributions.</p>
@@ -206,8 +215,8 @@ function renderCandidate(c) {
       <article class="chart-card"><h3>Fundraising in this race</h3><p class="chart-deck">Total Schedule A receipts reported by each candidate.</p>
         ${rivals.map(r => `<div class="bar-row"><div class="bar-label" title="${esc(r.candidate)}">${esc(r.candidate)}</div><div class="bar-track"><div class="bar-fill ${r.id===c.id?'selected':''}" style="width:${Math.max(2,r.totalReceipts/max*100)}%"></div><span class="bar-value">${money(r.totalReceipts)}</span></div></div>`).join('')}
       </article>
-      <article class="chart-card outside-chart"><h3>Outside spending in this race</h3><p class="chart-deck">Candidate-associated spending by third-party advertisers, shown separately from candidate fundraising.</p>
-        ${rivals.map(r => { const amount = outsideTotal(r.id); return `<div class="bar-row"><div class="bar-label" title="${esc(r.candidate)}">${esc(r.candidate)}</div><div class="bar-track"><div class="bar-fill outside ${r.id===c.id?'selected':''}" style="width:${amount ? Math.max(2,amount/outsideMax*100) : 0}%"></div><span class="bar-value">${money(amount)}</span></div></div>`; }).join('')}
+      <article class="chart-card outside-chart"><h3>Outside Spending In This Race</h3><p class="chart-deck">Candidate-associated spending by third-party advertisers, shown separately from candidate fundraising.</p>
+        ${rivals.map(r => { const amount = outsideTotal(r.id); const undetermined = hasUndeterminedSupport(r.id); const display = `${money(amount)}${undetermined ? ' + Additional Undetermined Support' : ''}`; return `<div class="bar-row"><div class="bar-label" title="${esc(r.candidate)}">${esc(r.candidate)}</div><div class="bar-track"><div class="bar-fill outside ${r.id===c.id?'selected':''}" style="width:${amount ? Math.max(2,amount/outsideMax*100) : 0}%"></div><span class="bar-value${undetermined ? ' undetermined-support' : ''}">${display}</span></div></div>`; }).join('')}
       </article>
     </div>
     ${outsideEntries.length ? `<section class="outside-section"><div><h3>Outside spending tied to ${esc(c.candidate)}</h3><p class="chart-deck">This is not money received or controlled by the candidate’s committee.</p></div><div class="table-wrap"><table><thead><tr><th>Advertiser</th><th>Activity</th><th>How attributed</th><th>Date</th><th>Amount</th></tr></thead><tbody>${outsideEntries.map(item => `<tr><td><strong>${esc(item.organization)}</strong></td><td>${esc(item.activity)}${item.note?.includes('does not reconcile') ? '<small class="row-note">Filing allocation discrepancy</small>' : ''}</td><td>${outsidePosition(item)}</td><td>${esc(item.date)}</td><td>${exactMoney(item.amount)}</td></tr>`).join('')}</tbody></table></div></section>` : ''}

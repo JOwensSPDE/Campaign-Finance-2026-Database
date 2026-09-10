@@ -98,6 +98,7 @@ select { min-width: 260px; padding: 11px 36px 11px 12px; border: 1px solid #aaa;
 .bar-fill.outside { background: var(--yellow-dark); }
 .bar-fill.outside.selected { background: var(--orange); }
 .bar-value { position: absolute; top: 50%; right: 8px; transform: translateY(-50%); font-size: 12px; font-weight: 800; }
+.bar-value.undetermined-support { color: var(--orange); }
 .donor-section, .outside-section { margin-top: 22px; padding: 25px; border: 1px solid var(--rule); background: white; }
 .outside-section h3 { margin: 0; font: 700 25px/1.1 var(--serif); }
 .outside-chart { grid-column: 1 / -1; }
