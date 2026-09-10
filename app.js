@@ -1,4 +1,10 @@
-const state = { data: [], outside: { groups: [], allocations: [], reviewIssues: [] }, race: 'all', donorLimit: 50 };
+const state = {
+  data: [],
+  outside: { groups: [], allocations: [], reviewIssues: [] },
+  race: 'all',
+  donorLimit: 50,
+  donorSort: { key: 'amount', direction: 'desc' }
+};
 const money = value => new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD', maximumFractionDigits: 0 }).format(value || 0);
 const exactMoney = value => new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD' }).format(value || 0);
 const esc = value => String(value ?? '').replace(/[&<>'"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
@@ -161,6 +167,7 @@ function renderCandidate(c) {
   const view = document.querySelector('#candidate-view');
   view.hidden = false;
   state.donorLimit = 50;
+  state.donorSort = { key: 'amount', direction: 'desc' };
   const rivals = state.data.filter(x => x.raceId === c.raceId).sort((a,b) => b.totalReceipts - a.totalReceipts);
   const max = Math.max(...rivals.map(x => x.totalReceipts), 1);
   const outsideEntries = outsideForCandidate(c.id).sort((a,b) => new Date(b.date) - new Date(a.date));
@@ -302,11 +309,42 @@ function legendRow(color, label, value, share) {
 
 function renderDonorTable(c, query = '') {
   const q = normalize(query);
-  const list = c.donors.filter(d => !q || normalize(`${d.name} ${d.address}`).includes(q)).sort((a,b) => b.amount - a.amount || a.name.localeCompare(b.name));
+  const { key, direction } = state.donorSort;
+  const multiplier = direction === 'asc' ? 1 : -1;
+  const list = c.donors
+    .filter(d => !q || normalize(`${d.name} ${d.address}`).includes(q))
+    .sort((a, b) => {
+      let result;
+      if (key === 'amount') result = a.amount - b.amount;
+      else if (key === 'date') result = donorDateValue(a.date) - donorDateValue(b.date);
+      else result = String(a[key] || '').localeCompare(String(b[key] || ''), undefined, { sensitivity: 'base' });
+      return result * multiplier || a.name.localeCompare(b.name);
+    });
   document.querySelector('#donor-count').textContent = `${list.length.toLocaleString()} contribution${list.length === 1 ? '' : 's'} found`;
   const shown = list.slice(0, state.donorLimit);
-  document.querySelector('#donor-table').innerHTML = `<div class="table-wrap"><table><thead><tr><th>Contributor</th><th>City and state</th><th>Date</th><th>Amount</th></tr></thead><tbody>${shown.map(d => `<tr><td><strong>${esc(d.name)}</strong></td><td>${esc(d.address)}</td><td>${esc(d.date)}</td><td>${exactMoney(d.amount)}</td></tr>`).join('')}</tbody></table></div>${shown.length < list.length ? `<button class="load-more">Show 50 more</button>` : ''}`;
+  document.querySelector('#donor-table').innerHTML = `<div class="table-wrap"><table><thead><tr>${donorSortHeader('name', 'Contributor')}${donorSortHeader('address', 'City and state')}${donorSortHeader('date', 'Date')}${donorSortHeader('amount', 'Amount')}</tr></thead><tbody>${shown.map(d => `<tr><td><strong>${esc(d.name)}</strong></td><td>${esc(d.address)}</td><td>${esc(d.date)}</td><td>${exactMoney(d.amount)}</td></tr>`).join('')}</tbody></table></div>${shown.length < list.length ? `<button class="load-more">Show 50 more</button>` : ''}`;
+  document.querySelectorAll('#donor-table [data-sort]').forEach(button => button.addEventListener('click', () => {
+    const nextKey = button.dataset.sort;
+    if (state.donorSort.key === nextKey) state.donorSort.direction = state.donorSort.direction === 'asc' ? 'desc' : 'asc';
+    else state.donorSort = { key: nextKey, direction: ['amount', 'date'].includes(nextKey) ? 'desc' : 'asc' };
+    state.donorLimit = 50;
+    renderDonorTable(c, query);
+    document.querySelector(`#donor-table [data-sort="${nextKey}"]`)?.focus();
+  }));
   document.querySelector('.load-more')?.addEventListener('click', () => { state.donorLimit += 50; renderDonorTable(c, query); });
+}
+
+function donorSortHeader(key, label) {
+  const active = state.donorSort.key === key;
+  const direction = active ? state.donorSort.direction : 'none';
+  const arrow = active ? (direction === 'asc' ? '▲' : '▼') : '↕';
+  const ariaSort = active ? (direction === 'asc' ? 'ascending' : 'descending') : 'none';
+  return `<th aria-sort="${ariaSort}"><button class="sort-button" type="button" data-sort="${key}">${label}<span aria-hidden="true">${arrow}</span></button></th>`;
+}
+
+function donorDateValue(value) {
+  const [month = 0, day = 0, year = 0] = String(value || '').split('/').map(Number);
+  return (year * 10000) + (month * 100) + day;
 }
 
 init();
