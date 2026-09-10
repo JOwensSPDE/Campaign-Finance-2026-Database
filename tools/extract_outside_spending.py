@@ -207,14 +207,27 @@ def choose_reports(reports: list[dict]) -> tuple[list[dict], list[dict]]:
     for group in groups.values():
         amendments = [r for r in group if r["amended"]]
         pool = amendments or group
-        signatures = set()
-        for report in sorted(pool, key=lambda r: (r["version"], r["reportDate"], r["sourceFile"]), reverse=True):
-            signature = tuple((x["date"], x["payee"], x["amount"], x["rawText"]) for x in report["expenditures"])
-            if signature in signatures:
-                excluded.append({"sourceFile": report["sourceFile"], "reason": "duplicate report download"})
-            else:
-                signatures.add(signature)
-                selected.append(report)
+        ordered = sorted(
+            pool,
+            key=lambda r: (r["version"], r["reportDate"], r["sourceFile"]),
+            reverse=True,
+        )
+        selected.append(ordered[0])
+        selected_signature = tuple(
+            (x["date"], x["payee"], x["amount"], x["rawText"])
+            for x in ordered[0]["expenditures"]
+        )
+        for report in ordered[1:]:
+            signature = tuple(
+                (x["date"], x["payee"], x["amount"], x["rawText"])
+                for x in report["expenditures"]
+            )
+            reason = (
+                "duplicate report download"
+                if signature == selected_signature
+                else "superseded by later amendment"
+            )
+            excluded.append({"sourceFile": report["sourceFile"], "reason": reason})
         for report in group:
             if report not in pool:
                 excluded.append({"sourceFile": report["sourceFile"], "reason": "superseded by amended report"})
