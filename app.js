@@ -13,7 +13,7 @@ const normalize = value => String(value ?? '').toLowerCase().normalize('NFD').re
 async function init() {
   try {
     const [response, outsideResponse] = await Promise.all([
-      fetch('data/campaign-finance.json?v=24'), fetch('data/outside-spending.json?v=24')
+      fetch('data/campaign-finance.json?v=26'), fetch('data/outside-spending.json?v=26')
     ]);
     if (!response.ok || !outsideResponse.ok) throw new Error(`Data request failed`);
     const [payload, outside] = await Promise.all([response.json(), outsideResponse.json()]);
@@ -139,7 +139,7 @@ function renderSearch(query) {
   const groups = state.outside.groups.filter(g => normalize(g.organization).includes(q)).slice(0, 6);
   const donors = [];
   for (const candidate of state.data) {
-    for (const donor of candidate.donors) {
+    for (const donor of candidateContributions(candidate)) {
       if (normalize(`${donor.name} ${donor.address}`).includes(q)) donors.push({ ...donor, candidate });
     }
   }
@@ -198,7 +198,7 @@ function renderCandidate(c) {
       <div class="metric outside-metric"><span>Additional Outside Spending Tied To Candidate</span><strong>${candidateOutsideDisplay}</strong>${unallocatedSupport.length ? '<small>* Additional support was reported without a candidate-level dollar amount.</small>' : ''}</div>
     </div>
     <div class="charts">
-      <article class="chart-card"><h3>Where itemized money came from</h3><p class="chart-deck">Based on the mailing addresses reported for Schedule A contributions.</p>
+      <article class="chart-card"><h3>Where reported money came from</h3><p class="chart-deck">Based on reported Schedule A mailing addresses, with aggregate contributions not exceeding $100 classified as in-state.</p>
         <div class="donut-wrap">
           <svg class="donut" viewBox="0 0 180 180" role="img" aria-label="${Math.round(deShare*100)} percent Delaware, ${Math.round(outShare*100)} percent outside Delaware">
             <circle class="base" cx="90" cy="90" r="70"/>
@@ -206,7 +206,7 @@ function renderCandidate(c) {
             <circle cx="90" cy="90" r="70" stroke="var(--orange)" stroke-dasharray="${outShare*circumference} ${circumference}" stroke-dashoffset="${-deShare*circumference}"/>
           </svg>
           <div class="legend">
-            ${legendRow('var(--blue)', 'Delaware addresses', c.delawareTotal, deShare)}
+            ${legendRow('var(--blue)', 'Delaware / contributions not exceeding $100', c.delawareTotal, deShare)}
             ${legendRow('var(--orange)', 'Outside Delaware', c.outsideTotal, outShare)}
             ${c.unitemizedOrOther > .01 ? legendRow('#b6b4ad', 'Not itemized / other receipts', c.unitemizedOrOther, c.totalReceipts ? c.unitemizedOrOther/c.totalReceipts : 0) : ''}
           </div>
@@ -325,11 +325,15 @@ function legendRow(color, label, value, share) {
   return `<div class="legend-row"><span class="legend-dot" style="background:${color}"></span><div><strong>${esc(label)}</strong><small>${exactMoney(value)} · ${Math.round(share*100)}%</small></div></div>`;
 }
 
+function candidateContributions(candidate) {
+  return [...candidate.donors, ...(candidate.smallContributionRows || [])];
+}
+
 function renderDonorTable(c, query = '') {
   const q = normalize(query);
   const { key, direction } = state.donorSort;
   const multiplier = direction === 'asc' ? 1 : -1;
-  const list = c.donors
+  const list = candidateContributions(c)
     .filter(d => !q || normalize(`${d.name} ${d.address}`).includes(q))
     .sort((a, b) => {
       let result;

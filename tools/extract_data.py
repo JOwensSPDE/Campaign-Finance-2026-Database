@@ -28,6 +28,12 @@ STATE_NAMES = {
     "Virginia", "Washington", "West Virginia", "Wisconsin", "Wyoming",
 }
 
+SMALL_CONTRIBUTIONS_LABEL = "TOTAL OF CONTRIBUTIONS NOT EXCEEDING $100"
+
+
+def is_small_contributions_total(name: str) -> bool:
+    return name.strip().casefold().startswith(SMALL_CONTRIBUTIONS_LABEL.casefold())
+
 
 def city_and_state(address: str) -> str:
     """Return only the reported city and state, omitting street and ZIP details."""
@@ -244,15 +250,26 @@ def extract(pdf: Path) -> dict:
 
     total_receipts = amount_field(first_page + "\n" + text[:8000], r"SCHEDULE A\s*-\s*TOTAL RECEIPTS")
     reported_itemized = amount_field(schedule, r"TOTAL ITEMIZED RECEIPTS")
+    small_contributions = amount_field(
+        schedule, r"TOTAL OF CONTRIBUTIONS NOT EXCEEDING \$100"
+    )
     reconciliation_total = reported_itemized if reported_itemized or not donors else total_receipts
     donors, excluded_rows = reconcile_deleted_rows(donors, reconciliation_total)
     total_expenditures = amount_field(first_page + "\n" + text[:8000], r"SCHEDULE B\s*-\s*TOTAL EXPENDITURES")
     ending_balance = amount_field(first_page + "\n" + text[:8000], r"ENDING BALANCE")
     itemized = round(sum(d["amount"] for d in donors), 2)
-    in_state = round(sum(d["amount"] for d in donors if re.search(r"\bDelaware\b", d["address"], re.I)), 2)
+    in_state = round(small_contributions + sum(
+        d["amount"] for d in donors
+        if is_small_contributions_total(d["name"])
+        or re.search(r"\bDelaware\b", d["address"], re.I)
+    ), 2)
     out_state = round(itemized - in_state, 2)
     for donor in donors:
-        donor["address"] = city_and_state(donor["address"])
+        if is_small_contributions_total(donor["name"]):
+            donor["name"] = SMALL_CONTRIBUTIONS_LABEL
+            donor["address"] = "Delaware"
+        else:
+            donor["address"] = city_and_state(donor["address"])
     fallback = fallback_name(stem)
     name_overrides = {
         "AG Rickman": "Patricia Dawn Rickman",
@@ -306,11 +323,20 @@ def extract(pdf: Path) -> dict:
         "totalExpenditures": total_expenditures,
         "endingBalance": ending_balance,
         "itemizedTotal": itemized,
+        "smallContributionsTotal": small_contributions,
+        "smallContributionRows": ([{
+            "date": field(first_page, "REPORTING PERIOD END"),
+            "name": SMALL_CONTRIBUTIONS_LABEL,
+            "address": "Delaware",
+            "aggregate": small_contributions,
+            "amount": small_contributions,
+            "receiptType": "aggregate-small-contributions",
+        }] if small_contributions else []),
         "reportedItemizedTotal": reported_itemized,
         "itemizedReconciliationGap": round(reported_itemized - itemized, 2),
         "delawareTotal": in_state,
         "outsideTotal": out_state,
-        "unitemizedOrOther": round(total_receipts - itemized, 2),
+        "unitemizedOrOther": round(total_receipts - itemized - small_contributions, 2),
         "donors": donors,
         "excludedRows": len(excluded_rows),
         "sourceFile": pdf.name,

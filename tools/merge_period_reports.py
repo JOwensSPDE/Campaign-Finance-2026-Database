@@ -17,6 +17,7 @@ MONEY_FIELDS = (
     "itemizedTotal",
     "delawareTotal",
     "outsideTotal",
+    "smallContributionsTotal",
     "unitemizedOrOther",
 )
 
@@ -34,6 +35,7 @@ def period(candidate: dict) -> dict:
         "totalReceipts": candidate["totalReceipts"],
         "candidateLoans": candidate["candidateLoans"],
         "totalExpenditures": candidate["totalExpenditures"],
+        "smallContributionsTotal": candidate.get("smallContributionsTotal", 0),
     }
 
 
@@ -87,8 +89,9 @@ def main() -> None:
             candidate.get("current2026Receipts", old_total) + new_candidate["totalReceipts"], 2
         )
         for field in MONEY_FIELDS:
-            candidate[field] = round(candidate[field] + new_candidate[field], 2)
+            candidate[field] = round(candidate.get(field, 0) + new_candidate.get(field, 0), 2)
         candidate["donors"].extend(new_candidate["donors"])
+        candidate.setdefault("smallContributionRows", []).extend(new_candidate.get("smallContributionRows", []))
         candidate["endingBalance"] = new_candidate["endingBalance"]
         candidate["reportDate"] = new_candidate["reportDate"]
         candidate["periodEnd"] = new_candidate["periodEnd"]

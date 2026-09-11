@@ -17,6 +17,7 @@ MONEY_FIELDS = (
     "itemizedTotal",
     "delawareTotal",
     "outsideTotal",
+    "smallContributionsTotal",
     "unitemizedOrOther",
 )
 
@@ -73,6 +74,7 @@ def main() -> None:
             "totalReceipts": candidate["totalReceipts"],
             "candidateLoans": candidate["candidateLoans"],
             "totalExpenditures": candidate["totalExpenditures"],
+            "smallContributionsTotal": candidate.get("smallContributionsTotal", 0),
         }
         annual_period = {
             "periodStart": annual_candidate["periodStart"],
@@ -82,6 +84,7 @@ def main() -> None:
             "totalReceipts": annual_candidate["totalReceipts"],
             "candidateLoans": annual_candidate["candidateLoans"],
             "totalExpenditures": annual_candidate["totalExpenditures"],
+            "smallContributionsTotal": annual_candidate.get("smallContributionsTotal", 0),
         }
 
         candidate["annual2025Receipts"] = annual_candidate["totalReceipts"]
@@ -90,8 +93,9 @@ def main() -> None:
         candidate["sourceFiles"] = [annual_candidate["sourceFile"], candidate["sourceFile"]]
         candidate["periodStart"] = annual_candidate["periodStart"]
         for field in MONEY_FIELDS:
-            candidate[field] = round(candidate[field] + annual_candidate[field], 2)
+            candidate[field] = round(candidate.get(field, 0) + annual_candidate.get(field, 0), 2)
         candidate["donors"] = annual_candidate["donors"] + candidate["donors"]
+        candidate["smallContributionRows"] = annual_candidate.get("smallContributionRows", []) + candidate.get("smallContributionRows", [])
         candidate["excludedRows"] = candidate.get("excludedRows", 0) + annual_candidate.get("excludedRows", 0)
         candidate["reportedItemizedTotal"] = round(
             candidate.get("reportedItemizedTotal", candidate["itemizedTotal"] - annual_candidate["itemizedTotal"])
