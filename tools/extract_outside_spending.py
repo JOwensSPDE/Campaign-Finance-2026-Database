@@ -53,6 +53,7 @@ CANDIDATE_PATTERNS = {
     "sd12-watson": r"(?:Dr\.\s*)?Keonna\s+Watson",
     "sd14-hoffner": r"Kyra\s+Hoffner",
     "trs-smith": r"Michael(?:\s+Alexander)?\s+Smith",
+    "trs-lauzen": r"(?:Ted|Theodore)\s+Lauzen",
     "ag-jennings": r"Kathleen\s+Jennings",
 }
 

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-10",
+  "generated": "2026-09-11",
   "methodology": "Third-party advertiser allocations remain separate from candidate fundraising. Only PACs with reported expenditures above zero are public; direct PAC donations are identified separately and are not added to independent outside-spending totals.",
   "groups": [
     {
@@ -453,9 +453,9 @@
     {
       "account": "04004463",
       "organization": "DelawareCAN Action Fund PAC (3rd Party Advertiser)",
-      "reportedExpenditures": 77614.0,
-      "candidateAttributed": 77614.0,
-      "reportCount": 2,
+      "reportedExpenditures": 87614.0,
+      "candidateAttributed": 87614.0,
+      "reportCount": 3,
       "entityType": "Third-party advertiser"
     },
     {
@@ -509,9 +509,9 @@
     {
       "account": "04006728",
       "organization": "Progressive Democrats for Delaware, Inc. - Third Party Advertiser",
-      "reportedExpenditures": 25711.02,
-      "candidateAttributed": 25679.02,
-      "reportCount": 1,
+      "reportedExpenditures": 50446.62,
+      "candidateAttributed": 50414.62,
+      "reportCount": 2,
       "entityType": "Third-party advertiser"
     },
     {
@@ -3561,6 +3561,22 @@
       "payee": "Balduzzi Group",
       "sourceFile": "CampaignFinanceReport_Prelim_478960_315_a1695349-050f-4e94-b0a9-393263eff95d.pdf",
       "reportPeriodEnd": "09/09/2026",
+      "note": "",
+      "allocationType": "independent-spending"
+    },
+    {
+      "id": "04004463-93d24aaf-0-trs-lauzen",
+      "candidateId": "trs-lauzen",
+      "targetCandidateId": null,
+      "position": "associated",
+      "amount": 10000.0,
+      "date": "09/09/2026",
+      "organization": "DelawareCAN Action Fund PAC (3rd Party Advertiser)",
+      "account": "04004463",
+      "activity": "Digital advertising",
+      "payee": "The New Media Firm Inc",
+      "sourceFile": "CampaignFinanceReport_Prelim_478960_315_d2763a58-9dbc-40b2-9984-9fb33119c49b.pdf",
+      "reportPeriodEnd": "09/10/2026",
       "note": "",
       "allocationType": "independent-spending"
     },
@@ -7051,6 +7067,182 @@
       "reportPeriodEnd": "09/04/2026",
       "note": "",
       "allocationType": "independent-spending"
+    },
+    {
+      "id": "04006728-097f4774-0-sd1-bohm",
+      "candidateId": "sd1-bohm",
+      "targetCandidateId": null,
+      "position": "associated",
+      "amount": 4101.43,
+      "date": "09/09/2026",
+      "organization": "Progressive Democrats for Delaware, Inc. - Third Party Advertiser",
+      "account": "04006728",
+      "activity": "Mail",
+      "payee": "Kennedy Printing Company Inc.",
+      "sourceFile": "CampaignFinanceReport_Prelim_755102_315_cfc39453-2c72-4a41-aa4b-37d1471095a2.pdf",
+      "reportPeriodEnd": "09/10/2026",
+      "note": "",
+      "allocationType": "independent-spending"
+    },
+    {
+      "id": "04006728-097f4774-1-sd12-watson",
+      "candidateId": "sd12-watson",
+      "targetCandidateId": null,
+      "position": "associated",
+      "amount": 2992.9,
+      "date": "09/09/2026",
+      "organization": "Progressive Democrats for Delaware, Inc. - Third Party Advertiser",
+      "account": "04006728",
+      "activity": "Mail",
+      "payee": "Kennedy Printing Company Inc.",
+      "sourceFile": "CampaignFinanceReport_Prelim_755102_315_cfc39453-2c72-4a41-aa4b-37d1471095a2.pdf",
+      "reportPeriodEnd": "09/10/2026",
+      "note": "",
+      "allocationType": "independent-spending"
+    },
+    {
+      "id": "04006728-097f4774-10-rd28-grier",
+      "candidateId": "rd28-grier",
+      "targetCandidateId": null,
+      "position": "associated",
+      "amount": 1227.86,
+      "date": "09/09/2026",
+      "organization": "Progressive Democrats for Delaware, Inc. - Third Party Advertiser",
+      "account": "04006728",
+      "activity": "Mail",
+      "payee": "Kennedy Printing Company Inc.",
+      "sourceFile": "CampaignFinanceReport_Prelim_755102_315_cfc39453-2c72-4a41-aa4b-37d1471095a2.pdf",
+      "reportPeriodEnd": "09/10/2026",
+      "note": "",
+      "allocationType": "independent-spending"
+    },
+    {
+      "id": "04006728-097f4774-2-rd28-grier",
+      "candidateId": "rd28-grier",
+      "targetCandidateId": null,
+      "position": "associated",
+      "amount": 1237.86,
+      "date": "09/09/2026",
+      "organization": "Progressive Democrats for Delaware, Inc. - Third Party Advertiser",
+      "account": "04006728",
+      "activity": "Mail",
+      "payee": "Kennedy Printing Company Inc.",
+      "sourceFile": "CampaignFinanceReport_Prelim_755102_315_cfc39453-2c72-4a41-aa4b-37d1471095a2.pdf",
+      "reportPeriodEnd": "09/10/2026",
+      "note": "",
+      "allocationType": "independent-spending"
+    },
+    {
+      "id": "04006728-097f4774-3-sd1-bohm",
+      "candidateId": "sd1-bohm",
+      "targetCandidateId": null,
+      "position": "associated",
+      "amount": 4070.43,
+      "date": "09/09/2026",
+      "organization": "Progressive Democrats for Delaware, Inc. - Third Party Advertiser",
+      "account": "04006728",
+      "activity": "Mail",
+      "payee": "Kennedy Printing Company Inc.",
+      "sourceFile": "CampaignFinanceReport_Prelim_755102_315_cfc39453-2c72-4a41-aa4b-37d1471095a2.pdf",
+      "reportPeriodEnd": "09/10/2026",
+      "note": "",
+      "allocationType": "independent-spending"
+    },
+    {
+      "id": "04006728-097f4774-4-rd28-grier",
+      "candidateId": "rd28-grier",
+      "targetCandidateId": null,
+      "position": "associated",
+      "amount": 1227.86,
+      "date": "09/09/2026",
+      "organization": "Progressive Democrats for Delaware, Inc. - Third Party Advertiser",
+      "account": "04006728",
+      "activity": "Mail",
+      "payee": "Kennedy Printing Company Inc.",
+      "sourceFile": "CampaignFinanceReport_Prelim_755102_315_cfc39453-2c72-4a41-aa4b-37d1471095a2.pdf",
+      "reportPeriodEnd": "09/10/2026",
+      "note": "",
+      "allocationType": "independent-spending"
+    },
+    {
+      "id": "04006728-097f4774-5-sd12-watson",
+      "candidateId": "sd12-watson",
+      "targetCandidateId": null,
+      "position": "associated",
+      "amount": 2724.9,
+      "date": "09/09/2026",
+      "organization": "Progressive Democrats for Delaware, Inc. - Third Party Advertiser",
+      "account": "04006728",
+      "activity": "Mail",
+      "payee": "Kennedy Printing Company Inc.",
+      "sourceFile": "CampaignFinanceReport_Prelim_755102_315_cfc39453-2c72-4a41-aa4b-37d1471095a2.pdf",
+      "reportPeriodEnd": "09/10/2026",
+      "note": "",
+      "allocationType": "independent-spending"
+    },
+    {
+      "id": "04006728-097f4774-6-rd32-paul",
+      "candidateId": "rd32-paul",
+      "targetCandidateId": null,
+      "position": "associated",
+      "amount": 1472.32,
+      "date": "09/09/2026",
+      "organization": "Progressive Democrats for Delaware, Inc. - Third Party Advertiser",
+      "account": "04006728",
+      "activity": "Mail",
+      "payee": "Kennedy Printing Company Inc.",
+      "sourceFile": "CampaignFinanceReport_Prelim_755102_315_cfc39453-2c72-4a41-aa4b-37d1471095a2.pdf",
+      "reportPeriodEnd": "09/10/2026",
+      "note": "",
+      "allocationType": "independent-spending"
+    },
+    {
+      "id": "04006728-097f4774-7-rd32-paul",
+      "candidateId": "rd32-paul",
+      "targetCandidateId": null,
+      "position": "associated",
+      "amount": 1472.32,
+      "date": "09/09/2026",
+      "organization": "Progressive Democrats for Delaware, Inc. - Third Party Advertiser",
+      "account": "04006728",
+      "activity": "Mail",
+      "payee": "Kennedy Printing Company Inc.",
+      "sourceFile": "CampaignFinanceReport_Prelim_755102_315_cfc39453-2c72-4a41-aa4b-37d1471095a2.pdf",
+      "reportPeriodEnd": "09/10/2026",
+      "note": "",
+      "allocationType": "independent-spending"
+    },
+    {
+      "id": "04006728-097f4774-8-sd12-watson",
+      "candidateId": "sd12-watson",
+      "targetCandidateId": null,
+      "position": "associated",
+      "amount": 2724.9,
+      "date": "09/09/2026",
+      "organization": "Progressive Democrats for Delaware, Inc. - Third Party Advertiser",
+      "account": "04006728",
+      "activity": "Mail",
+      "payee": "Kennedy Printing Company Inc.",
+      "sourceFile": "CampaignFinanceReport_Prelim_755102_315_cfc39453-2c72-4a41-aa4b-37d1471095a2.pdf",
+      "reportPeriodEnd": "09/10/2026",
+      "note": "",
+      "allocationType": "independent-spending"
+    },
+    {
+      "id": "04006728-097f4774-9-rd2-booker",
+      "candidateId": "rd2-booker",
+      "targetCandidateId": null,
+      "position": "associated",
+      "amount": 1482.82,
+      "date": "09/09/2026",
+      "organization": "Progressive Democrats for Delaware, Inc. - Third Party Advertiser",
+      "account": "04006728",
+      "activity": "Mail",
+      "payee": "Kennedy Printing Company Inc.",
+      "sourceFile": "CampaignFinanceReport_Prelim_755102_315_cfc39453-2c72-4a41-aa4b-37d1471095a2.pdf",
+      "reportPeriodEnd": "09/10/2026",
+      "note": "",
+      "allocationType": "independent-spending"
     }
   ],
   "reviewIssues": [
@@ -7459,6 +7651,18 @@
     {
       "sourceFile": "Sussex County Young Republicans.pdf",
       "reason": "PAC reported no expenditures"
+    },
+    {
+      "sourceFile": "CampaignFinance_59e47a27-956f-40d8-ab8a-d7a4780d893b.pdf",
+      "reason": "2022 election-cycle report outside the database scope"
+    },
+    {
+      "sourceFile": "CampaignFinance_5ec510e2-650d-45c2-a5bd-28e889358036.pdf",
+      "reason": "2022 election-cycle report outside the database scope"
+    },
+    {
+      "sourceFile": "CampaignFinance_6bff6122-bcc0-4d58-8b61-18c6f7b654d7.pdf",
+      "reason": "Duplicate 2022 election-cycle report outside the database scope"
     }
   ]
 }
