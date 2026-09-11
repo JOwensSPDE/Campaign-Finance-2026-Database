@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-10",
+  "generated": "2026-09-11",
   "source": "Delaware campaign finance reports supplied by Spotlight Delaware",
   "candidates": [
     {
@@ -13743,15 +13743,15 @@
       "account": "01006560",
       "raceId": "NCC3",
       "race": "New Castle County Council District 3",
-      "reportDate": "08/18/2026",
+      "reportDate": "09/10/2026",
       "periodStart": "02/09/2026",
-      "periodEnd": "08/16/2026",
-      "totalReceipts": 19774.06,
-      "totalExpenditures": 15085.03,
-      "endingBalance": 8383.99,
-      "itemizedTotal": 19774.06,
-      "delawareTotal": 13150.0,
-      "outsideTotal": 6624.06,
+      "periodEnd": "09/07/2026",
+      "totalReceipts": 21924.06,
+      "totalExpenditures": 19430.0,
+      "endingBalance": 6189.02,
+      "itemizedTotal": 21924.06,
+      "delawareTotal": 14100.0,
+      "outsideTotal": 7824.06,
       "unitemizedOrOther": 0.0,
       "donors": [
         {
@@ -14684,11 +14684,129 @@
           "address": "Wilmington, Delaware",
           "aggregate": 100.0,
           "amount": 100.0
+        },
+        {
+          "date": "08/24/2026",
+          "name": "Aaron Bass",
+          "address": "Bear, Delaware",
+          "aggregate": 25.0,
+          "amount": 25.0
+        },
+        {
+          "date": "08/26/2026",
+          "name": "Bob Buker",
+          "address": "Newark, Delaware",
+          "aggregate": 150.0,
+          "amount": 75.0
+        },
+        {
+          "date": "08/26/2026",
+          "name": "Bradon Toole",
+          "address": "Bear, Delaware",
+          "aggregate": 300.0,
+          "amount": 200.0
+        },
+        {
+          "date": "08/25/2026",
+          "name": "Brenda McCaughey",
+          "address": "Bel Air, Maryland",
+          "aggregate": 200.0,
+          "amount": 200.0
+        },
+        {
+          "date": "09/04/2026",
+          "name": "Dean Regan",
+          "address": "Newark, Delaware",
+          "aggregate": 250.0,
+          "amount": 250.0
+        },
+        {
+          "date": "09/03/2026",
+          "name": "Janet Kilpatrick",
+          "address": "Hockessin, Delaware",
+          "aggregate": 200.0,
+          "amount": 100.0
+        },
+        {
+          "date": "08/25/2026",
+          "name": "McCaughey Shawn",
+          "address": "Bel Air, Maryland",
+          "aggregate": 600.0,
+          "amount": 200.0
+        },
+        {
+          "date": "08/18/2026",
+          "name": "Neera Tanden",
+          "address": "Washington, District Of Columbia",
+          "aggregate": 100.0,
+          "amount": 100.0
+        },
+        {
+          "date": "08/29/2026",
+          "name": "Pat Evancho",
+          "address": "Hockessin, Delaware",
+          "aggregate": 200.0,
+          "amount": 100.0
+        },
+        {
+          "date": "08/29/2026",
+          "name": "Phesadgra Small",
+          "address": "Evanston, Illinois",
+          "aggregate": 150.0,
+          "amount": 50.0
+        },
+        {
+          "date": "08/26/2026",
+          "name": "Saul Ewing LLP",
+          "address": "Philadelphia, Pennsylvania",
+          "aggregate": 600.0,
+          "amount": 600.0
+        },
+        {
+          "date": "09/03/2026",
+          "name": "Tyler Batiste",
+          "address": "Dallas, Texas",
+          "aggregate": 350.0,
+          "amount": 50.0
+        },
+        {
+          "date": "09/03/2026",
+          "name": "Vince Lofink",
+          "address": "Hockessin, Delaware",
+          "aggregate": 300.0,
+          "amount": 200.0
         }
       ],
       "excludedRows": 0,
       "sourceFile": "NCC3 Grantham.pdf",
-      "candidateLoans": 3694.96
+      "candidateLoans": 3694.96,
+      "current2026Receipts": 21924.06,
+      "filingPeriods": [
+        {
+          "periodStart": "02/09/2026",
+          "periodEnd": "08/16/2026",
+          "reportDate": "08/18/2026",
+          "sourceFile": "NCC3 Grantham.pdf",
+          "totalReceipts": 19774.06,
+          "candidateLoans": 3694.96,
+          "totalExpenditures": 15085.03
+        },
+        {
+          "periodStart": "08/17/2026",
+          "periodEnd": "09/07/2026",
+          "reportDate": "09/10/2026",
+          "sourceFile": "NCC3 Grantham.pdf",
+          "totalReceipts": 2150.0,
+          "candidateLoans": 0,
+          "totalExpenditures": 4344.97
+        }
+      ],
+      "sourceFiles": [
+        "NCC3 Grantham.pdf",
+        "NCC3 Grantham.pdf"
+      ],
+      "reportedItemizedTotal": 21924.06,
+      "itemizedReconciliationGap": 0.0
     },
     {
       "id": "ncc4-linton",
@@ -21002,15 +21120,15 @@
       "account": "01006436",
       "raceId": "RD1",
       "race": "State House District 1",
-      "reportDate": "08/18/2026",
+      "reportDate": "09/10/2026",
       "periodStart": "09/08/2025",
-      "periodEnd": "08/16/2026",
-      "totalReceipts": 25388.86,
-      "totalExpenditures": 12977.74,
-      "endingBalance": 12411.12,
-      "itemizedTotal": 25088.86,
-      "delawareTotal": 15989.48,
-      "outsideTotal": 9099.38,
+      "periodEnd": "09/07/2026",
+      "totalReceipts": 28161.43,
+      "totalExpenditures": 14748.43,
+      "endingBalance": 12016.96,
+      "itemizedTotal": 27861.43,
+      "delawareTotal": 17689.48,
+      "outsideTotal": 10171.95,
       "unitemizedOrOther": 300.0,
       "donors": [
         {
@@ -21684,12 +21802,75 @@
           "address": "Wilmington, Delaware",
           "aggregate": 220.0,
           "amount": 100.0
+        },
+        {
+          "date": "08/17/2026",
+          "name": "Anthony Sierzega",
+          "address": "Wilmington, Delaware",
+          "aggregate": 250.0,
+          "amount": 250.0
+        },
+        {
+          "date": "08/17/2026",
+          "name": "Charles Tate",
+          "address": "Wilmington, Delaware",
+          "aggregate": 152.0,
+          "amount": 50.0
+        },
+        {
+          "date": "08/17/2026",
+          "name": "Colin Fisher",
+          "address": "Wilmington, Delaware",
+          "aggregate": 600.0,
+          "amount": 600.0
+        },
+        {
+          "date": "08/17/2026",
+          "name": "Ernest Congo",
+          "address": "Wilmington, Delaware",
+          "aggregate": 500.0,
+          "amount": 300.0
+        },
+        {
+          "date": "08/17/2026",
+          "name": "Jonathan Tate",
+          "address": "Wilmington, Delaware",
+          "aggregate": 252.0,
+          "amount": 100.0
+        },
+        {
+          "date": "08/19/2026",
+          "name": "Marshala Lee McCall",
+          "address": "Wilmington, Delaware",
+          "aggregate": 350.0,
+          "amount": 100.0
+        },
+        {
+          "date": "08/26/2026",
+          "name": "simone Harris",
+          "address": "Newark, Delaware",
+          "aggregate": 325.0,
+          "amount": 200.0
+        },
+        {
+          "date": "08/17/2026",
+          "name": "Susan Sander",
+          "address": "Wilmington, Delaware",
+          "aggregate": 200.0,
+          "amount": 100.0
+        },
+        {
+          "date": "09/07/2026",
+          "name": "Total of Contributions not exceeding $100",
+          "address": "",
+          "aggregate": 1072.57,
+          "amount": 1072.57
         }
       ],
       "excludedRows": 0,
       "sourceFile": "RD1 Darby.pdf",
       "annual2025Receipts": 8050.48,
-      "current2026Receipts": 17338.38,
+      "current2026Receipts": 20110.95,
       "filingPeriods": [
         {
           "periodStart": "09/08/2025",
@@ -21708,13 +21889,23 @@
           "totalReceipts": 17338.38,
           "totalExpenditures": 11692.54,
           "candidateLoans": 0
+        },
+        {
+          "periodStart": "08/17/2026",
+          "periodEnd": "09/07/2026",
+          "reportDate": "09/10/2026",
+          "sourceFile": "RD1 Darby.pdf",
+          "totalReceipts": 2772.57,
+          "candidateLoans": 0,
+          "totalExpenditures": 1770.69
         }
       ],
       "sourceFiles": [
         "RD1 Darby.pdf",
+        "RD1 Darby.pdf",
         "RD1 Darby.pdf"
       ],
-      "reportedItemizedTotal": 25088.86,
+      "reportedItemizedTotal": 27861.43,
       "itemizedReconciliationGap": 0.0,
       "candidateLoans": 0
     },
@@ -30065,15 +30256,15 @@
       "account": "01006595",
       "raceId": "RD19",
       "race": "State House District 19",
-      "reportDate": "08/19/2026",
+      "reportDate": "09/09/2026",
       "periodStart": "03/01/2026",
-      "periodEnd": "08/16/2026",
-      "totalReceipts": 12378.32,
-      "totalExpenditures": 7061.09,
-      "endingBalance": 5317.23,
-      "itemizedTotal": 12202.61,
+      "periodEnd": "09/07/2026",
+      "totalReceipts": 13055.87,
+      "totalExpenditures": 19891.6,
+      "endingBalance": 2970.17,
+      "itemizedTotal": 12880.16,
       "delawareTotal": 6201.0,
-      "outsideTotal": 6001.61,
+      "outsideTotal": 6679.16,
       "unitemizedOrOther": 175.71,
       "donors": [
         {
@@ -30579,11 +30770,108 @@
           "address": "Wilmington, Delaware",
           "aggregate": 500.0,
           "amount": 500.0
+        },
+        {
+          "date": "08/24/2026",
+          "name": "Bob Palais",
+          "address": "Salt Lake City, Utah",
+          "aggregate": 250.0,
+          "amount": 250.0
+        },
+        {
+          "date": "08/19/2026",
+          "name": "Total of Contributions not exceeding $100",
+          "address": "",
+          "aggregate": 20.0,
+          "amount": 20.0
+        },
+        {
+          "date": "08/21/2026",
+          "name": "Total of Contributions not exceeding $100",
+          "address": "",
+          "aggregate": 3.84,
+          "amount": 3.84
+        },
+        {
+          "date": "08/22/2026",
+          "name": "Total of Contributions not exceeding $100",
+          "address": "",
+          "aggregate": 50.0,
+          "amount": 50.0
+        },
+        {
+          "date": "09/02/2026",
+          "name": "Total of Contributions not exceeding $100",
+          "address": "",
+          "aggregate": 100.0,
+          "amount": 100.0
+        },
+        {
+          "date": "09/02/2026",
+          "name": "Total of Contributions not exceeding $100",
+          "address": "",
+          "aggregate": 3.71,
+          "amount": 3.71
+        },
+        {
+          "date": "09/06/2026",
+          "name": "Total of Contributions not exceeding $100",
+          "address": "",
+          "aggregate": 100.0,
+          "amount": 100.0
+        },
+        {
+          "date": "09/06/2026",
+          "name": "Total of Contributions not exceeding $100",
+          "address": "",
+          "aggregate": 50.0,
+          "amount": 50.0
+        },
+        {
+          "date": "09/06/2026",
+          "name": "Total of Contributions not exceeding $100",
+          "address": "",
+          "aggregate": 50.0,
+          "amount": 50.0
+        },
+        {
+          "date": "09/06/2026",
+          "name": "Total of Contributions not exceeding $100",
+          "address": "",
+          "aggregate": 50.0,
+          "amount": 50.0
         }
       ],
       "excludedRows": 0,
-      "sourceFile": "RD19 Inmbrie Moore.pdf",
-      "candidateLoans": 0
+      "sourceFile": "RD19 Imbrie-Moore.pdf",
+      "candidateLoans": 9805.9,
+      "current2026Receipts": 13055.87,
+      "filingPeriods": [
+        {
+          "periodStart": "03/01/2026",
+          "periodEnd": "08/16/2026",
+          "reportDate": "08/19/2026",
+          "sourceFile": "RD19 Inmbrie Moore.pdf",
+          "totalReceipts": 12378.32,
+          "candidateLoans": 0,
+          "totalExpenditures": 7061.09
+        },
+        {
+          "periodStart": "08/17/2026",
+          "periodEnd": "09/07/2026",
+          "reportDate": "09/09/2026",
+          "sourceFile": "RD19 Imbrie-Moore.pdf",
+          "totalReceipts": 677.55,
+          "candidateLoans": 9805.9,
+          "totalExpenditures": 12830.51
+        }
+      ],
+      "sourceFiles": [
+        "RD19 Inmbrie Moore.pdf",
+        "RD19 Imbrie-Moore.pdf"
+      ],
+      "reportedItemizedTotal": 12880.16,
+      "itemizedReconciliationGap": 0.0
     },
     {
       "id": "rd2-booker",
@@ -46784,15 +47072,15 @@
       "account": "01004978",
       "raceId": "RD8",
       "race": "State House District 8",
-      "reportDate": "08/19/2026",
+      "reportDate": "09/10/2026",
       "periodStart": "01/01/2025",
-      "periodEnd": "08/16/2026",
-      "totalReceipts": 7426.08,
-      "totalExpenditures": 6351.99,
-      "endingBalance": 3765.61,
-      "itemizedTotal": 6726.08,
-      "delawareTotal": 4915.88,
-      "outsideTotal": 1810.2,
+      "periodEnd": "09/07/2026",
+      "totalReceipts": 9363.08,
+      "totalExpenditures": 7563.85,
+      "endingBalance": 4490.75,
+      "itemizedTotal": 8663.08,
+      "delawareTotal": 6765.88,
+      "outsideTotal": 1897.2,
       "unitemizedOrOther": 700.0,
       "donors": [
         {
@@ -46948,12 +47236,61 @@
           "address": "",
           "aggregate": 185.2,
           "amount": 185.2
+        },
+        {
+          "date": "09/04/2026",
+          "name": "Delaware Stonewall PAC",
+          "address": "Rehoboth Beach, Delaware",
+          "aggregate": 600.0,
+          "amount": 600.0
+        },
+        {
+          "date": "08/25/2026",
+          "name": "Framk Burns",
+          "address": "Newark, Delaware",
+          "aggregate": 300.0,
+          "amount": 300.0
+        },
+        {
+          "date": "09/01/2026",
+          "name": "Madinah Wilson-Anton",
+          "address": "Newark, Delaware",
+          "aggregate": 400.0,
+          "amount": 400.0
+        },
+        {
+          "date": "08/21/2026",
+          "name": "Martin Willis",
+          "address": "New Castle, Delaware",
+          "aggregate": 50.0,
+          "amount": 50.0
+        },
+        {
+          "date": "09/04/2026",
+          "name": "Martin Willis",
+          "address": "New Castle, Delaware",
+          "aggregate": 350.0,
+          "amount": 300.0
+        },
+        {
+          "date": "09/04/2026",
+          "name": "Norman Oliver",
+          "address": "Middletown, Delaware",
+          "aggregate": 200.0,
+          "amount": 200.0
+        },
+        {
+          "date": "09/07/2026",
+          "name": "Total of Contributions not exceeding $100",
+          "address": "",
+          "aggregate": 87.0,
+          "amount": 87.0
         }
       ],
       "excludedRows": 0,
       "sourceFile": "RD8 Moore.pdf",
       "annual2025Receipts": 3935.0,
-      "current2026Receipts": 3491.08,
+      "current2026Receipts": 5428.08,
       "filingPeriods": [
         {
           "periodStart": "01/01/2025",
@@ -46972,13 +47309,23 @@
           "totalReceipts": 3491.08,
           "totalExpenditures": 2619.95,
           "candidateLoans": 1613.0
+        },
+        {
+          "periodStart": "08/17/2026",
+          "periodEnd": "09/07/2026",
+          "reportDate": "09/10/2026",
+          "sourceFile": "RD8 Moore.pdf",
+          "totalReceipts": 1937.0,
+          "candidateLoans": 0,
+          "totalExpenditures": 1211.86
         }
       ],
       "sourceFiles": [
         "RD8 Moore.pdf",
+        "RD8 Moore.pdf",
         "RD8 Moore.pdf"
       ],
-      "reportedItemizedTotal": 6726.08,
+      "reportedItemizedTotal": 8663.08,
       "itemizedReconciliationGap": 0.0,
       "candidateLoans": 1613.0
     },
@@ -65352,15 +65699,15 @@
       "account": "01003818",
       "raceId": "SD9",
       "race": "State Senate District 9",
-      "reportDate": "08/14/2026",
+      "reportDate": "09/10/2026",
       "periodStart": "01/01/2025",
-      "periodEnd": "08/16/2026",
-      "totalReceipts": 22011.21,
-      "totalExpenditures": 22772.52,
-      "endingBalance": 50054.71,
-      "itemizedTotal": 21975.0,
-      "delawareTotal": 15400.0,
-      "outsideTotal": 6575.0,
+      "periodEnd": "09/07/2026",
+      "totalReceipts": 39586.21,
+      "totalExpenditures": 27728.72,
+      "endingBalance": 62673.51,
+      "itemizedTotal": 39550.0,
+      "delawareTotal": 28375.0,
+      "outsideTotal": 11175.0,
       "unitemizedOrOther": 36.21,
       "donors": [
         {
@@ -65810,12 +66157,257 @@
           "address": "Newark, Delaware",
           "aggregate": 600.0,
           "amount": 600.0
+        },
+        {
+          "date": "09/07/2026",
+          "name": "ACLI Political Activity Fund",
+          "address": "Washington, District Of Columbia",
+          "aggregate": 600.0,
+          "amount": 300.0
+        },
+        {
+          "date": "08/17/2026",
+          "name": "Care Advantage",
+          "address": "North Chesterfield, Virginia",
+          "aggregate": 600.0,
+          "amount": 600.0
+        },
+        {
+          "date": "08/17/2026",
+          "name": "Committee To Elect Paradee",
+          "address": "Dover, Delaware",
+          "aggregate": 600.0,
+          "amount": 600.0
+        },
+        {
+          "date": "08/18/2026",
+          "name": "Cornerstone Government Affairs",
+          "address": "Washington, District Of Columbia",
+          "aggregate": 450.0,
+          "amount": 450.0
+        },
+        {
+          "date": "08/17/2026",
+          "name": "Delaware Legislative Campaign Committee",
+          "address": "Wilmington, Delaware",
+          "aggregate": 600.0,
+          "amount": 600.0
+        },
+        {
+          "date": "09/07/2026",
+          "name": "Delaware Multi-Housing PAC (MHS-PAC)",
+          "address": "Dover, Delaware",
+          "aggregate": 600.0,
+          "amount": 600.0
+        },
+        {
+          "date": "08/17/2026",
+          "name": "Delaware People",
+          "address": "New Castle, Delaware",
+          "aggregate": 600.0,
+          "amount": 300.0
+        },
+        {
+          "date": "09/02/2026",
+          "name": "Delaware REALTORS PAC",
+          "address": "Dover, Delaware",
+          "aggregate": 600.0,
+          "amount": 600.0
+        },
+        {
+          "date": "08/19/2026",
+          "name": "Delaware Restaurant Association Political Action",
+          "address": "Dover, Delaware",
+          "aggregate": 500.0,
+          "amount": 500.0
+        },
+        {
+          "date": "08/17/2026",
+          "name": "Delaware Senate Majority Caucus Campaign",
+          "address": "Wilmington, Delaware",
+          "aggregate": 600.0,
+          "amount": 600.0
+        },
+        {
+          "date": "08/17/2026",
+          "name": "Delaware Stonewall PAC",
+          "address": "Rehoboth Beach, Delaware",
+          "aggregate": 600.0,
+          "amount": 600.0
+        },
+        {
+          "date": "08/17/2026",
+          "name": "Democrats 2024",
+          "address": "Wilmington, Delaware",
+          "aggregate": 600.0,
+          "amount": 600.0
+        },
+        {
+          "date": "09/04/2026",
+          "name": "Doherty Funeral Homes",
+          "address": "Wilmington, Delaware",
+          "aggregate": 600.0,
+          "amount": 600.0
+        },
+        {
+          "date": "08/17/2026",
+          "name": "DSEA Advocacy Fund For Children & Public",
+          "address": "Dover, Delaware",
+          "aggregate": 350.0,
+          "amount": 350.0
+        },
+        {
+          "date": "08/17/2026",
+          "name": "First State Manufactured Housing PAC",
+          "address": "Dover, Delaware",
+          "aggregate": 600.0,
+          "amount": 600.0
+        },
+        {
+          "date": "08/17/2026",
+          "name": "Friends of Laura Sturgeon",
+          "address": "Wilmington, Delaware",
+          "aggregate": 600.0,
+          "amount": 600.0
+        },
+        {
+          "date": "08/17/2026",
+          "name": "General Teamsters Local 326 PAC",
+          "address": "New Castle, Delaware",
+          "aggregate": 500.0,
+          "amount": 500.0
+        },
+        {
+          "date": "08/17/2026",
+          "name": "Harvey, Hanna & Associates Inc.",
+          "address": "Newport, Delaware",
+          "aggregate": 600.0,
+          "amount": 200.0
+        },
+        {
+          "date": "08/18/2026",
+          "name": "IBEW Educational Fund",
+          "address": "Washington, District Of Columbia",
+          "aggregate": 600.0,
+          "amount": 600.0
+        },
+        {
+          "date": "08/31/2026",
+          "name": "Law PAC of Delaware",
+          "address": "Wilmington, Delaware",
+          "aggregate": 600.0,
+          "amount": 600.0
+        },
+        {
+          "date": "08/17/2026",
+          "name": "Mark Brainard",
+          "address": "Newark, Delaware",
+          "aggregate": 250.0,
+          "amount": 250.0
+        },
+        {
+          "date": "08/17/2026",
+          "name": "Mark Murowany",
+          "address": "Hockessin, Delaware",
+          "aggregate": 300.0,
+          "amount": 300.0
+        },
+        {
+          "date": "08/17/2026",
+          "name": "Michael Vest",
+          "address": "Hockessin, Delaware",
+          "aggregate": 600.0,
+          "amount": 600.0
+        },
+        {
+          "date": "08/31/2026",
+          "name": "New Castle County Chamber of Commerce",
+          "address": "Wilmington, Delaware",
+          "aggregate": 350.0,
+          "amount": 200.0
+        },
+        {
+          "date": "08/24/2026",
+          "name": "PMI US Corporate Services",
+          "address": "Washington, District Of Columbia",
+          "aggregate": 600.0,
+          "amount": 600.0
+        },
+        {
+          "date": "08/17/2026",
+          "name": "Preferred Electric, Inc.",
+          "address": "New Castle, Delaware",
+          "aggregate": 600.0,
+          "amount": 600.0
+        },
+        {
+          "date": "09/02/2026",
+          "name": "Private Property Rights PAC",
+          "address": "Dover, Delaware",
+          "aggregate": 600.0,
+          "amount": 600.0
+        },
+        {
+          "date": "09/07/2026",
+          "name": "Rebecca Kidner",
+          "address": "Dover, Delaware",
+          "aggregate": 600.0,
+          "amount": 275.0
+        },
+        {
+          "date": "08/31/2026",
+          "name": "Richard Crawford",
+          "address": "Townsend, Delaware",
+          "aggregate": 500.0,
+          "amount": 500.0
+        },
+        {
+          "date": "08/17/2026",
+          "name": "Tomorrow PAC",
+          "address": "Washington, District Of Columbia",
+          "aggregate": 600.0,
+          "amount": 600.0
+        },
+        {
+          "date": "08/17/2026",
+          "name": "Total of Contributions not exceeding $100",
+          "address": "",
+          "aggregate": 100.0,
+          "amount": 100.0
+        },
+        {
+          "date": "09/01/2026",
+          "name": "Total of Contributions not exceeding $100",
+          "address": "",
+          "aggregate": 750.0,
+          "amount": 750.0
+        },
+        {
+          "date": "09/07/2026",
+          "name": "UFCW Local 27",
+          "address": "BALTIMORE, Maryland",
+          "aggregate": 600.0,
+          "amount": 600.0
+        },
+        {
+          "date": "09/04/2026",
+          "name": "Westport Maven Group LLC",
+          "address": "Rockland, Delaware",
+          "aggregate": 600.0,
+          "amount": 600.0
+        },
+        {
+          "date": "08/17/2026",
+          "name": "Young Conaway Stargatt & Taylor, LLP Political",
+          "address": "Wilmington, Delaware",
+          "aggregate": 600.0,
+          "amount": 600.0
         }
       ],
       "excludedRows": 0,
       "sourceFile": "SD9 Walsh.pdf",
       "annual2025Receipts": 6972.83,
-      "current2026Receipts": 15038.38,
+      "current2026Receipts": 32613.38,
       "filingPeriods": [
         {
           "periodStart": "01/01/2025",
@@ -65834,13 +66426,23 @@
           "totalReceipts": 15038.38,
           "totalExpenditures": 18245.49,
           "candidateLoans": 0
+        },
+        {
+          "periodStart": "08/17/2026",
+          "periodEnd": "09/07/2026",
+          "reportDate": "09/10/2026",
+          "sourceFile": "SD9 Walsh.pdf",
+          "totalReceipts": 17575.0,
+          "candidateLoans": 0,
+          "totalExpenditures": 4956.2
         }
       ],
       "sourceFiles": [
         "SD9 Walsh.pdf",
+        "SD9 Walsh.pdf",
         "SD9 Walsh.pdf"
       ],
-      "reportedItemizedTotal": 21975.0,
+      "reportedItemizedTotal": 39550.0,
       "itemizedReconciliationGap": 0.0,
       "candidateLoans": 0
     },
