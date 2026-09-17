@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-11",
+  "generated": "2026-09-17",
   "methodology": "Third-party advertiser allocations remain separate from candidate fundraising. Only PACs with reported expenditures above zero are public; direct PAC donations are identified separately and are not added to independent outside-spending totals.",
   "groups": [
     {
@@ -445,17 +445,17 @@
     {
       "account": "04005615",
       "organization": "Delaware Senate Majority Caucus Campaign Committee Third Party Advertiser",
-      "reportedExpenditures": 159350.0,
+      "reportedExpenditures": 136578.0,
       "candidateAttributed": 136578.0,
-      "reportCount": 5,
+      "reportCount": 4,
       "entityType": "Third-party advertiser"
     },
     {
       "account": "04004463",
       "organization": "DelawareCAN Action Fund PAC (3rd Party Advertiser)",
-      "reportedExpenditures": 87614.0,
-      "candidateAttributed": 87614.0,
-      "reportCount": 3,
+      "reportedExpenditures": 104299.75,
+      "candidateAttributed": 104299.75,
+      "reportCount": 5,
       "entityType": "Third-party advertiser"
     },
     {
@@ -485,17 +485,17 @@
     {
       "account": "04006723",
       "organization": "Good Growth _",
-      "reportedExpenditures": 63045.8,
-      "candidateAttributed": 29744.1,
-      "reportCount": 2,
+      "reportedExpenditures": 67437.91,
+      "candidateAttributed": 34136.21,
+      "reportCount": 3,
       "entityType": "Third-party advertiser"
     },
     {
       "account": "04003201",
       "organization": "Growing Economic Opportunities",
-      "reportedExpenditures": 2838.93,
-      "candidateAttributed": 2838.93,
-      "reportCount": 1,
+      "reportedExpenditures": 9616.27,
+      "candidateAttributed": 9616.27,
+      "reportCount": 2,
       "entityType": "Third-party advertiser"
     },
     {
@@ -3341,6 +3341,54 @@
       "allocationType": "independent-spending"
     },
     {
+      "id": "04003201-4aa47895-0-ncc4-linton",
+      "candidateId": "ncc4-linton",
+      "targetCandidateId": null,
+      "position": "associated",
+      "amount": 107.34,
+      "date": "09/10/2026",
+      "organization": "Growing Economic Opportunities",
+      "account": "04003201",
+      "activity": "Candidate-associated expenditure",
+      "payee": "Dunkin Donuts",
+      "sourceFile": "CampaignFinanceReport_Prelim_377118_315_1237f723-35c4-4359-9eb9-38ce14e8e8ea.pdf",
+      "reportPeriodEnd": "09/11/2026",
+      "note": "",
+      "allocationType": "independent-spending"
+    },
+    {
+      "id": "04003201-4aa47895-1-ncc4-linton",
+      "candidateId": "ncc4-linton",
+      "targetCandidateId": null,
+      "position": "associated",
+      "amount": 4570.0,
+      "date": "09/11/2026",
+      "organization": "Growing Economic Opportunities",
+      "account": "04003201",
+      "activity": "Candidate-associated expenditure",
+      "payee": "Gateway Media, LLC",
+      "sourceFile": "CampaignFinanceReport_Prelim_377118_315_1237f723-35c4-4359-9eb9-38ce14e8e8ea.pdf",
+      "reportPeriodEnd": "09/11/2026",
+      "note": "",
+      "allocationType": "independent-spending"
+    },
+    {
+      "id": "04003201-4aa47895-2-ncc4-linton",
+      "candidateId": "ncc4-linton",
+      "targetCandidateId": null,
+      "position": "associated",
+      "amount": 2100.0,
+      "date": "09/11/2026",
+      "organization": "Growing Economic Opportunities",
+      "account": "04003201",
+      "activity": "Candidate-associated expenditure",
+      "payee": "Growing Economic Opportunities",
+      "sourceFile": "CampaignFinanceReport_Prelim_377118_315_1237f723-35c4-4359-9eb9-38ce14e8e8ea.pdf",
+      "reportPeriodEnd": "09/11/2026",
+      "note": "",
+      "allocationType": "independent-spending"
+    },
+    {
       "id": "04003857-74befcae-0-ncc4-linton",
       "candidateId": "ncc4-linton",
       "targetCandidateId": null,
@@ -3565,7 +3613,7 @@
       "allocationType": "independent-spending"
     },
     {
-      "id": "04004463-93d24aaf-0-trs-lauzen",
+      "id": "04004463-010c1944-0-trs-lauzen",
       "candidateId": "trs-lauzen",
       "targetCandidateId": null,
       "position": "associated",
@@ -3575,8 +3623,136 @@
       "account": "04004463",
       "activity": "Digital advertising",
       "payee": "The New Media Firm Inc",
-      "sourceFile": "CampaignFinanceReport_Prelim_478960_315_d2763a58-9dbc-40b2-9984-9fb33119c49b.pdf",
+      "sourceFile": "CampaignFinanceReport_Prelim_478960_315_d2763a58-9dbc-40b2-9984-9fb33119c49b(1).pdf",
       "reportPeriodEnd": "09/10/2026",
+      "note": "",
+      "allocationType": "independent-spending"
+    },
+    {
+      "id": "04004463-17924637-1-rd6-mulvihill",
+      "candidateId": "rd6-mulvihill",
+      "targetCandidateId": null,
+      "position": "associated",
+      "amount": 2700.0,
+      "date": "09/10/2026",
+      "organization": "DelawareCAN Action Fund PAC (3rd Party Advertiser)",
+      "account": "04004463",
+      "activity": "Candidate-associated expenditure",
+      "payee": "Chism Strategies",
+      "sourceFile": "CampaignFinanceReport_Prelim_478960_315_f8f78a36-b51b-4659-a2e5-4ad9e2dbf817.pdf",
+      "reportPeriodEnd": "09/11/2026",
+      "note": "",
+      "allocationType": "independent-spending"
+    },
+    {
+      "id": "04004463-17924637-2-rd1-chukwoucha",
+      "candidateId": "rd1-chukwoucha",
+      "targetCandidateId": null,
+      "position": "associated",
+      "amount": 2700.0,
+      "date": "09/10/2026",
+      "organization": "DelawareCAN Action Fund PAC (3rd Party Advertiser)",
+      "account": "04004463",
+      "activity": "Candidate-associated expenditure",
+      "payee": "Chism Strategies",
+      "sourceFile": "CampaignFinanceReport_Prelim_478960_315_f8f78a36-b51b-4659-a2e5-4ad9e2dbf817.pdf",
+      "reportPeriodEnd": "09/11/2026",
+      "note": "",
+      "allocationType": "independent-spending"
+    },
+    {
+      "id": "04004463-17924637-3-sd1-cruce",
+      "candidateId": "sd1-cruce",
+      "targetCandidateId": null,
+      "position": "associated",
+      "amount": 4700.0,
+      "date": "09/10/2026",
+      "organization": "DelawareCAN Action Fund PAC (3rd Party Advertiser)",
+      "account": "04004463",
+      "activity": "Candidate-associated expenditure",
+      "payee": "Chism Strategies",
+      "sourceFile": "CampaignFinanceReport_Prelim_478960_315_f8f78a36-b51b-4659-a2e5-4ad9e2dbf817.pdf",
+      "reportPeriodEnd": "09/11/2026",
+      "note": "",
+      "allocationType": "independent-spending"
+    },
+    {
+      "id": "04004463-17924637-0-sd12-poore",
+      "candidateId": "sd12-poore",
+      "targetCandidateId": null,
+      "position": "associated",
+      "amount": 2895.75,
+      "date": "09/11/2026",
+      "organization": "DelawareCAN Action Fund PAC (3rd Party Advertiser)",
+      "account": "04004463",
+      "activity": "Mail",
+      "payee": "Balduzzi Group",
+      "sourceFile": "CampaignFinanceReport_Prelim_478960_315_f8f78a36-b51b-4659-a2e5-4ad9e2dbf817.pdf",
+      "reportPeriodEnd": "09/11/2026",
+      "note": "",
+      "allocationType": "independent-spending"
+    },
+    {
+      "id": "04004463-f60d8775-0-rd1-chukwoucha",
+      "candidateId": "rd1-chukwoucha",
+      "targetCandidateId": null,
+      "position": "associated",
+      "amount": 900.0,
+      "date": "09/13/2026",
+      "organization": "DelawareCAN Action Fund PAC (3rd Party Advertiser)",
+      "account": "04004463",
+      "activity": "Candidate-associated expenditure",
+      "payee": "Chism Strategies",
+      "sourceFile": "CampaignFinanceReport_Prelim_478960_315_6975c737-8af7-40fb-a8f1-d744290ddd80.pdf",
+      "reportPeriodEnd": "09/14/2026",
+      "note": "",
+      "allocationType": "independent-spending"
+    },
+    {
+      "id": "04004463-f60d8775-1-sd1-cruce",
+      "candidateId": "sd1-cruce",
+      "targetCandidateId": null,
+      "position": "associated",
+      "amount": 1290.0,
+      "date": "09/13/2026",
+      "organization": "DelawareCAN Action Fund PAC (3rd Party Advertiser)",
+      "account": "04004463",
+      "activity": "Candidate-associated expenditure",
+      "payee": "Chism Strategies",
+      "sourceFile": "CampaignFinanceReport_Prelim_478960_315_6975c737-8af7-40fb-a8f1-d744290ddd80.pdf",
+      "reportPeriodEnd": "09/14/2026",
+      "note": "",
+      "allocationType": "independent-spending"
+    },
+    {
+      "id": "04004463-f60d8775-2-rd19-williams",
+      "candidateId": "rd19-williams",
+      "targetCandidateId": null,
+      "position": "associated",
+      "amount": 600.0,
+      "date": "09/13/2026",
+      "organization": "DelawareCAN Action Fund PAC (3rd Party Advertiser)",
+      "account": "04004463",
+      "activity": "Candidate-associated expenditure",
+      "payee": "Chism Strategies",
+      "sourceFile": "CampaignFinanceReport_Prelim_478960_315_6975c737-8af7-40fb-a8f1-d744290ddd80.pdf",
+      "reportPeriodEnd": "09/14/2026",
+      "note": "",
+      "allocationType": "independent-spending"
+    },
+    {
+      "id": "04004463-f60d8775-3-rd12-griffith",
+      "candidateId": "rd12-griffith",
+      "targetCandidateId": null,
+      "position": "associated",
+      "amount": 900.0,
+      "date": "09/13/2026",
+      "organization": "DelawareCAN Action Fund PAC (3rd Party Advertiser)",
+      "account": "04004463",
+      "activity": "Candidate-associated expenditure",
+      "payee": "Chism Strategies",
+      "sourceFile": "CampaignFinanceReport_Prelim_478960_315_6975c737-8af7-40fb-a8f1-d744290ddd80.pdf",
+      "reportPeriodEnd": "09/14/2026",
       "note": "",
       "allocationType": "independent-spending"
     },
@@ -6845,6 +7021,22 @@
       "allocationType": "independent-spending"
     },
     {
+      "id": "04006723-e767b5ec-0-rd12-griffith",
+      "candidateId": "rd12-griffith",
+      "targetCandidateId": null,
+      "position": "support",
+      "amount": 4392.11,
+      "date": "09/15/2026",
+      "organization": "Good Growth _",
+      "account": "04006723",
+      "activity": "Mail",
+      "payee": "Publitics Solutions LLC",
+      "sourceFile": "CampaignFinanceReport_Prelim_753440_315_373417ab-8fa4-41c3-91e7-f1d74e304d5d.pdf",
+      "reportPeriodEnd": "09/16/2026",
+      "note": "",
+      "allocationType": "independent-spending"
+    },
+    {
       "id": "04006728-28b4f909-0-sd12-watson",
       "candidateId": "sd12-watson",
       "targetCandidateId": null,
@@ -7282,13 +7474,6 @@
       "rawText": "08/17/2026 Red Horse Strategies Red Horse 55 Washington St, Brooklyn, New York, $455,000.00 $126,000.00 | Strategies 11201 | Shane Darby - State Representative | District 1 Rae Krantz - State | Representative District 6 Pamela | Salaam - State Representative District | 16 Will Imbrie-Moore - State | Representative District 19 Adriana | Bohm - State Senate District 1 Shay | Frisby - State Senate District 5"
     },
     {
-      "sourceFile": "CampaignFinanceReport_Prelim_600563_315_18c17455-b9e8-4533-961b-b3f685c0efb7.pdf",
-      "rowId": "04005615-9b9f3af6-0",
-      "reason": "Candidate allocations total $25,001, exceeding the $22,772 expenditure.",
-      "amount": 22772.0,
-      "rawText": "08/03/2026 Kennedy Communications 655 15th St. NW, Suite 800, Washington, $22,772.00 $22,772.00 | District Of Columbia, 20005 | Issue Advocacy Mail for Dan Cruce | (SD1): $7,619, Ray Seigfried (SD5): | $5,245, Spiros Mantzavinos (SD7): | $4,518, Nicole Poore (SD12): $7,619"
-    },
-    {
       "sourceFile": "CampaignFinanceReport_Prelim_753440_315_4ff48689-f08a-4b50-b382-a2f2c6dfe625.pdf",
       "rowId": "04006723-e4f787b8-1",
       "reason": "Description says $6,335 and SD11; expenditure columns say $6,355 and the named candidate is in SD1.",
@@ -7340,6 +7525,10 @@
     }
   ],
   "excludedReports": [
+    {
+      "sourceFile": "CampaignFinanceReport_Prelim_600563_315_18c17455-b9e8-4533-961b-b3f685c0efb7.pdf",
+      "reason": "superseded by later amendment"
+    },
     {
       "sourceFile": "CampaignFinance_196a3012-fb52-42ef-a133-f5980231e0c6.pdf",
       "reason": "duplicate report download"
@@ -7651,18 +7840,6 @@
     {
       "sourceFile": "Sussex County Young Republicans.pdf",
       "reason": "PAC reported no expenditures"
-    },
-    {
-      "sourceFile": "CampaignFinance_59e47a27-956f-40d8-ab8a-d7a4780d893b.pdf",
-      "reason": "2022 election-cycle report outside the database scope"
-    },
-    {
-      "sourceFile": "CampaignFinance_5ec510e2-650d-45c2-a5bd-28e889358036.pdf",
-      "reason": "2022 election-cycle report outside the database scope"
-    },
-    {
-      "sourceFile": "CampaignFinance_6bff6122-bcc0-4d58-8b61-18c6f7b654d7.pdf",
-      "reason": "Duplicate 2022 election-cycle report outside the database scope"
     }
   ]
 }
